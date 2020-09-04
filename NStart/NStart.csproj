@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\lib\material-components\" />
     <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
 

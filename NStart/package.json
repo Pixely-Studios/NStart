@@ -5,8 +5,11 @@
   "private": false,
   "dependencies": {
     "animate.css": "latest",
-    "jquery": "latest",
-    "material-components-web": "^7.0.0"
+    "bulma": "latest",
+    "bulma-badge": "latest",
+    "bulma-tagsinput": "latest",
+    "bulma-timeline": "latest",
+    "jquery": "latest"
   },
   "devDependencies": {
     "grunt": "latest",

@@ -22,6 +22,45 @@ module.exports = function (grunt) {
                         filter: "isFile",
                         flatten: true
                     },
+                    // Bulma.io CSS
+                    {
+                        src: nodeRoot + "bulma/css/*",
+                        dest: targetPath + "bulma/dist/css",
+                        expand: true,
+                        filter: "isFile",
+                        flatten: true
+                    },
+                    // Bulma Badges
+                    {
+                        src: nodeRoot + "bulma-badge/dist/css/*",
+                        dest: targetPath + "bulma/plugins/bulma-badge/dist/css/",
+                        expand: true,
+                        filter: "isFile",
+                        flatten: true
+                    },
+                    // Bulma Tags
+                    {
+                        src: nodeRoot + "bulma-tagsinput/dist/css/*",
+                        dest: targetPath + "bulma/plugins/bulma-tagsinput/dist/css/",
+                        expand: true,
+                        filter: "isFile",
+                        flatten: true
+                    },
+                    {
+                        src: nodeRoot + "bulma-tagsinput/dist/js/*",
+                        dest: targetPath + "bulma/plugins/bulma-tagsinput/dist/js/",
+                        expand: true,
+                        filter: "isFile",
+                        flatten: true
+                    },
+                    // Bulma Timeline
+                    {
+                        src: nodeRoot + "bulma-timeline/dist/css/*",
+                        dest: targetPath + "bulma/plugins/bulma-timeline/dist/css/",
+                        expand: true,
+                        filter: "isFile",
+                        flatten: true
+                    },
                     // jQuery Library
                     {
                         src: nodeRoot + "jquery/dist/*",
