@@ -27,7 +27,7 @@
     <meta name="twitter:url" content="@(ViewData["Twitter:URL"] ?? "https://nstart.net")" />
     <meta name="twitter:image" content="@(ViewData["Twitter:Image"] ?? "https://nstart.net/static/defaults/default-twitter-image.png")" />
     <meta name="twitter:image:alt" content="@(ViewData["Twitter:ImageAlt"] ?? "Default NStart page Twitter image")" />
-    <meta name="twitter:site" content="@@pixelystudios" />
+    <meta name="twitter:site" content="@@dummy-account" />
     <meta name="twitter:creator" content="@(ViewData["Twitter:CreatorAccount"] ?? "@dummy-account")" />
     @* Language, Charset and Format Information*@
     <meta charset="utf-8" />
@@ -45,7 +45,6 @@
     <meta name="description" content="NStart base template" />
     <meta name="author" content="Leonardo Antonio González Castro" />
     <link rel="canonical" href="https://nstart.com" />
-    <link rel="manifest" href="~/manifest.json" />
     <link rel="shortcut icon" href="~/assets/icons/favicon.ico" type="image/x-icon" sizes="32x32" />
     <link rel="shortcut icon" href="~/assets/icons/favicon-64px.ico" type="image/x-icon" sizes="64x64" />
     <link rel="fluid-icon" href="~/App_Data/Assets/Icons/fluid_icon.png" title="Pixely Studios" />
@@ -96,9 +95,6 @@
             <div class="navbar-start">
                 <a class="navbar-item" asp-area="" asp-page="/Pages/Home/Contact">@Localizer["ProjectsNavbar"]</a>
                 <a asp-area="" asp-page="/Pages/Privacy/PrivacyIndex">@Localizer["PrivacyNavbar"]</a>
-            </div>
-            <div class="navbar-end">
-                <partial name="_LoginPartial" />
             </div>
         </div>
     </nav>

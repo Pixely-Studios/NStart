@@ -1,0 +1,352 @@
+﻿/* Material Icons by Google Style and Compatibility Sources Declaration */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/materialicons/MaterialIcons-Regular.eot), /* For IE6-8 */
+    url(../fonts/materialicons/material-icons.css) format('css'), url(../fonts/materialicons/MaterialIcons-Regular.svg) format('svg'), url(../fonts/materialicons/MaterialIcons-Regular.woff2) format('woff2'), url(../fonts/materialicons/MaterialIcons-Regular.woff) format('woff'), url(../fonts/materialicons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+/* Josefin Sans Regular */
+@font-face {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/josefinsans/JosefinSans-Thin.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-Thin.css) format('css'), url(../fonts/josefinsans/JosefinSans-Thin.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-Thin.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/josefinsans/JosefinSans-Light.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-Light.css) format('css'), url(../fonts/josefinsans/JosefinSans-Light.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-Light.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/josefinsans/JosefinSans-Regular.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-Regular.css) format('css'), url(../fonts/josefinsans/JosefinSans-Regular.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-Regular.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/josefinsans/JosefinSans-SemiBold.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-SemiBold.css) format('css'), url(../fonts/josefinsans/JosefinSans-SemiBold.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-SemiBold.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/josefinsans/JosefinSans-Bold.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-Bold.css) format('css'), url(../fonts/josefinsans/JosefinSans-Bold.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-Bold.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-Bold.ttf) format('truetype');
+}
+
+/* Josefin Sans Italic */
+@font-face {
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: 100;
+    src: url(../fonts/josefinsans/JosefinSans-ThinItalic.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-ThinItalic.css) format('css'), url(../fonts/josefinsans/JosefinSans-ThinItalic.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-ThinItalic.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-ThinItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: 300;
+    src: url(../fonts/josefinsans/JosefinSans-LightItalic.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-LightItalic.css) format('css'), url(../fonts/josefinsans/JosefinSans-LightItalic.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-LightItalic.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/josefinsans/JosefinSans-Italic.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-Italic.css) format('css'), url(../fonts/josefinsans/JosefinSans-Italic.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-Italic.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: 600;
+    src: url(../fonts/josefinsans/JosefinSans-SemiBoldItalic.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-SemiBoldItalic.css) format('css'), url(../fonts/josefinsans/JosefinSans-SemiBoldItalic.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-SemiBoldItalic.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/josefinsans/JosefinSans-BoldItalic.eot), /* For IE6-8 */
+    url(../fonts/josefinsans/JosefinSans-BoldItalic.css) format('css'), url(../fonts/josefinsans/JosefinSans-BoldItalic.svg) format('svg'), url(../fonts/josefinsans/JosefinSans-BoldItalic.woff) format('woff'), url(../fonts/josefinsans/JosefinSans-BoldItalic.ttf) format('truetype');
+}
+
+/* Lora Italic */
+
+/* Lora Regular */
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/), url() format('css'), url() format('svg'), url() format('woff'), url() format('truetype');
+}
+
+/* Montserrat Italic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: inherit;
+    src: url(../fonts/montserrat/Montserrat-Italic.eot), /* For IE6-8 */
+    url(../fonts/montserrat/Montserrat-Italic.css) format('css'), url(../fonts/montserrat/Montserrat-Italic.svg) format('svg'), url(../fonts/montserrat/Montserrat-Italic.woff) format('woff'), url(../fonts/montserrat/Montserrat-Italic.ttf) format('truetype');
+}
+
+/* Montserrat Regular */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/montserrat/Montserrat-Regular.eot), /* For IE6-8 */
+    url(../fonts/montserrat/Montserrat-Regular.css) format('css'), url(../fonts/montserrat/Montserrat-Regular.svg) format('svg'), url(../fonts/montserrat/Montserrat-Regular.woff) format('woff'), url(../fonts/montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+/* Nunito Italic */
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 200;
+    src: url(../fonts/nunito/Nunito-ExtraLightItalic.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-ExtraLightItalic.css) format('css'), url(../fonts/nunito/Nunito-ExtraLightItalic.svg) format('svg'), url(../fonts/nunito/Nunito-ExtraLightItalic.woff) format('woff'), url(../fonts/nunito/Nunito-ExtraLightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 300;
+    src: url(../fonts/nunito/Nunito-LightItalic.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-LightItalic.css) format('css'), url(../fonts/nunito/Nunito-LightItalic.svg) format('svg'), url(../fonts/nunito/Nunito-LightItalic.woff) format('woff'), url(../fonts/nunito/Nunito-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/nunito/Nunito-Italic.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-Italic.css) format('css'), url(../fonts/nunito/Nunito-Italic.svg) format('svg'), url(../fonts/nunito/Nunito-Italic.woff) format('woff'), url(../fonts/nunito/Nunito-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 600;
+    src: url(../fonts/nunito/Nunito-SemiBold.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-SemiBoldItalic.css) format('css'), url(../fonts/nunito/Nunito-SemiBoldItalic.svg) format('svg'), url(../fonts/nunito/Nunito-SemiBoldItalic.woff) format('woff'), url(../fonts/nunito/Nunito-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/nunito/Nunito-BoldItalic.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-BoldItalic.css) format('css'), url(../fonts/nunito/Nunito-BoldItalic.svg) format('svg'), url(../fonts/nunito/Nunito-BoldItalic.woff) format('woff'), url(../fonts/nunito/Nunito-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 800;
+    src: url(../fonts/nunito/Nunito-ExtraBoldItalic.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-ExtraBoldItalic.css) format('css'), url(../fonts/nunito/Nunito-ExtraBoldItalic.svg) format('svg'), url(../fonts/nunito/Nunito-ExtraBoldItalic.woff) format('woff'), url(../fonts/nunito/Nunito-ExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 900;
+    src: url(../fonts/nunito/Nunito-BlackItalic.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-BlackItalic.css) format('css'), url(../fonts/nunito/Nunito-BlackItalic.svg) format('svg'), url(../fonts/nunito/Nunito-BlackItalic.woff) format('woff'), url(../fonts/nunito/Nunito-BlackItalic.ttf) format('truetype');
+}
+
+
+/* Nunito Regular */
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/nunito/Nunito-ExtraLight.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-ExtraLight.css) format('css'), url(../fonts/nunito/Nunito-ExtraLight.svg) format('svg'), url(../fonts/nunito/Nunito-ExtraLight.woff) format('woff'), url(../fonts/nunito/Nunito-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/nunito/Nunito-Light.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-Light.css) format('css'), url(../fonts/nunito/Nunito-Light.svg) format('svg'), url(../fonts/nunito/Nunito-Light.woff) format('woff'), url(../fonts/nunito/Nunito-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/nunito/Nunito-Regular.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-Regular.css) format('css'), url(../fonts/nunito/Nunito-Regular.svg) format('svg'), url(../fonts/nunito/Nunito-Regular.woff) format('woff'), url(../fonts/nunito/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/nunito/Nunito-SemiBold.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-SemiBold.css) format('css'), url(../fonts/nunito/Nunito-SemiBold.svg) format('svg'), url(../fonts/nunito/Nunito-SemiBold.woff) format('woff'), url(../fonts/nunito/Nunito-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/nunito/Nunito-Bold.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-Bold.css) format('css'), url(../fonts/nunito/Nunito-Bold.svg) format('svg'), url(../fonts/nunito/Nunito-Bold.woff) format('woff'), url(../fonts/nunito/Nunito-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/nunito/Nunito-ExtraBold.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-ExtraBold.css) format('css'), url(../fonts/nunito/Nunito-ExtraBold.svg) format('svg'), url(../fonts/nunito/Nunito-ExtraBold.woff) format('woff'), url(../fonts/nunito/Nunito-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/nunito/Nunito-Black.eot), /* For IE6-8 */
+    url(../fonts/nunito/Nunito-Black.css) format('css'), url(../fonts/nunito/Nunito-Black.svg) format('svg'), url(../fonts/nunito/Nunito-Black.woff) format('woff'), url(../fonts/nunito/Nunito-Black.ttf) format('truetype');
+}
+
+
+/* Open Sans Italic */
+@font-face {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 300;
+    src: url(../fonts/opensans/OpenSans-LightItalic.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-LightItalic.css) format('css'), url(../fonts/opensans/OpenSans-LightItalic.svg) format('svg'), url(../fonts/opensans/OpenSans-LightItalic.woff) format('woff'), url(../fonts/opensans/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/opensans/OpenSans-Italic.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-Italic.css) format('css'), url(../fonts/opensans/OpenSans-Italic.svg) format('svg'), url(../fonts/opensans/OpenSans-Italic.woff) format('woff'), url(../fonts/opensans/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 600;
+    src: url(../fonts/opensans/OpenSans-SemiBoldItalic.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-SemiBoldItalic.css) format('css'), url(../fonts/opensans/OpenSans-SemiBoldItalic.svg) format('svg'), url(../fonts/opensans/OpenSans-SemiBoldItalic.woff) format('woff'), url(../fonts/opensans/OpenSans-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/opensans/OpenSans-BoldItalic.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-BoldItalic.css) format('css'), url(../fonts/opensans/OpenSans-BoldItalic.svg) format('svg'), url(../fonts/opensans/OpenSans-BoldItalic.woff) format('woff'), url(../fonts/opensans/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 800;
+    src: url(../fonts/opensans/OpenSans-ExtraBoldItalic.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-ExtraBoldItalic.css) format('css'), url(../fonts/opensans/OpenSans-ExtraBoldItalic.svg) format('svg'), url(../fonts/opensans/OpenSans-ExtraBoldItalic.woff) format('woff'), url(../fonts/opensans/OpenSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+/* OpenSans Regular */
+@font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/opensans/OpenSans-Light.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-Light.css) format('css'), url(../fonts/opensans/OpenSans-Light.svg) format('svg'), url(../fonts/opensans/OpenSans-Light.woff) format('woff'), url(../fonts/opensans/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/opensans/OpenSans-Regular.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-Regular.css) format('css'), url(../fonts/opensans/OpenSans-Regular.svg) format('svg'), url(../fonts/opensans/OpenSans-Regular.woff) format('woff'), url(../fonts/opensans/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/opensans/OpenSans-SemiBold.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-SemiBold.css) format('css'), url(../fonts/opensans/OpenSans-SemiBold.svg) format('svg'), url(../fonts/opensans/OpenSans-SemiBold.woff) format('woff'), url(../fonts/opensans/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/opensans/OpenSans-Bold.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-Bold.css) format('css'), url(../fonts/opensans/OpenSans-Bold.svg) format('svg'), url(../fonts/opensans/OpenSans-Bold.woff) format('woff'), url(../fonts/opensans/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/opensans/OpenSans-ExtraBold.eot), /* For IE6-8 */
+    url(../fonts/opensans/OpenSans-ExtraBold.css) format('css'), url(../fonts/opensans/OpenSans-ExtraBold.svg) format('svg'), url(../fonts/opensans/OpenSans-ExtraBold.woff) format('woff'), url(../fonts/opensans/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+
+
+/* Playfair Display Regular */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/playfairdisplay/PlayfairDisplay-Regular.eot), /* For IE6-8 */
+    url(../fonts/playfairdisplay/PlayfairDisplay-Regular.css) format('css'), url(../fonts/playfairdisplay/PlayfairDisplay-Regular.svg) format('svg'), url(../fonts/playfairdisplay/PlayfairDisplay-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/playfairdisplay/PlayfairDisplay-Bold.eot), /* For IE6-8 */
+    url(../fonts/playfairdisplay/PlayfairDisplay-Bold.css) format('css'), url(../fonts/playfairdisplay/PlayfairDisplay-Bold.svg) format('svg'), url(../fonts/playfairdisplay/PlayfairDisplay-Bold.ttf) format('truetype');
+}
+
+/* Playfair Display Italic */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/playfairdisplay/PlayfairDisplay-Italic.eot), /* For IE6-8 */
+    url(../fonts/playfairdisplay/PlayfairDisplay-Italic.css) format('css'), url(../fonts/playfairdisplay/PlayfairDisplay-Italic.svg) format('svg'), url(../fonts/playfairdisplay/PlayfairDisplay-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/playfairdisplay/PlayfairDisplay-BoldItalic.eot), /* For IE6-8 */
+    url(../fonts/playfairdisplay/PlayfairDisplay-BoldItalic.css) format('css'), url(../fonts/playfairdisplay/PlayfairDisplay-Bold.svg) format('svg'), url(../fonts/playfairdisplay/PlayfairDisplay-BoldItalic.ttf) format('truetype');
+}

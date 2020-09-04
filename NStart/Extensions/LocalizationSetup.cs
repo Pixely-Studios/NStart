@@ -41,9 +41,6 @@ namespace NStart.Extensions
 
 		public static void AddCustomLocalization(this IServiceCollection services)
 		{
-			if (services is null)
-				throw new ArgumentNullException(nameof(services));
-
 			services.Configure<RequestLocalizationOptions>(options =>
 			{
 				options.DefaultRequestCulture = new RequestCulture(culture: DefaultCulture, uiCulture: DefaultCulture);

@@ -7,12 +7,21 @@ var jqueryTargetPath = './wwwroot/lib/jquery/dist';
 module.exports = function (grunt) {
     grunt.initConfig({
         clean: [
+            targetPath + 'animatecss/*',
             targetPath + 'material-components/*', targetPath + 'jquery/*',
             targetPath + 'jquery-validation/*', targetPath + 'jquery-validation-unobtrusive/*'
         ],
         copy: {
             external: {
                 files: [
+                    // AnimateCSS Library
+                    {
+                        src: nodeRoot + "animate.css/*.css",
+                        dest: targetPath + "animatecss/dist/",
+                        expand: true,
+                        filter: "isFile",
+                        flatten: true
+                    },
                     // jQuery Library
                     {
                         src: nodeRoot + "jquery/dist/*",

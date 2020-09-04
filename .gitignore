@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# User Defined Ignored Routes
+NStart/wwwroot/dist
+## Ignored Attainable Files
+NStart/wwwroot/lib/animatecss/
+NStart/wwwroot/lib/jquery/
+NStart/wwwroot/lib/material-components/
