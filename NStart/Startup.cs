@@ -42,6 +42,7 @@ namespace NStart
 			}
 			else
 			{
+				app.UseExceptionHandler(configure => configure.UseStatusCodePagesWithReExecute("/error/{0}"));
 				app.UseHsts();
 			}
 

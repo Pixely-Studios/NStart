@@ -1,0 +1,8 @@
+﻿@page "/error/{Code=int}"
+@model NStart.Pages.Platform.ErrorPageModel
+@{
+    ViewData["Title"] = "Error " + ViewData["Code"];
+}
+
+<h1>ErrorPage + @ViewData["Code"]</h1>
+
