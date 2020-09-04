@@ -12,39 +12,39 @@
     @* Microsoft Web Metadata *@
     <meta name="msapplication-TileImage" content="icon.png" />
     <meta name="msapplication-TileColor" content="#122562" />
-    <meta name="msapplication-starturl" content="https://pixely.net" />
+    <meta name="msapplication-starturl" content="https://nstart.com" />
     <meta name="msapplication-navbutton-color" content="#122562" />
     @* OG:Metadata Types*@
     <meta prefix="og: http://ogp.me/ns#" property="title" content="@ViewData["Title"]" />
-    <meta prefix="og: http://ogp.me/ns#" property="site_name" content="Pixely Studios" />
-    <meta prefix="og: http://ogp.me/ns#" property="url" content="https://pixely.net" />
+    <meta prefix="og: http://ogp.me/ns#" property="site_name" content="NStart" />
+    <meta prefix="og: http://ogp.me/ns#" property="url" content="https://nstart.com" />
     <meta prefix="og: http://ogp.me/ns#" property="type" content="article" />
     <meta prefix="og: http://ogp.me/ns#" property="locale" content="en-US" />
     @* Twitter Cards *@
     <meta name="twitter:card" content="@(ViewData["Twitter:CardType"] ?? "summary") " />
-    <meta name="twitter:title" content="@(ViewData["Twitter:Title"] ?? "Official Pixely Site")" />
-    <meta name="twitter:description" content="@(ViewData["Twitter:Description"] ?? "The official website from Pixely Studios!")" />
-    <meta name="twitter:url" content="@(ViewData["Twitter:URL"] ?? "https://pixely.net")" />
-    <meta name="twitter:image" content="@(ViewData["Twitter:Image"] ?? "https://pixely.net/static/defaults/default-twitter-image.png")" />
-    <meta name="twitter:image:alt" content="@(ViewData["Twitter:ImageAlt"] ?? "Default Twitter image from Pixely Studios")" />
+    <meta name="twitter:title" content="@(ViewData["Twitter:Title"] ?? "NStart")" />
+    <meta name="twitter:description" content="@(ViewData["Twitter:Description"] ?? "A default Videogame Studio landing page created with NStart")" />
+    <meta name="twitter:url" content="@(ViewData["Twitter:URL"] ?? "https://nstart.net")" />
+    <meta name="twitter:image" content="@(ViewData["Twitter:Image"] ?? "https://nstart.net/static/defaults/default-twitter-image.png")" />
+    <meta name="twitter:image:alt" content="@(ViewData["Twitter:ImageAlt"] ?? "Default NStart page Twitter image")" />
     <meta name="twitter:site" content="@@pixelystudios" />
-    <meta name="twitter:creator" content="@(ViewData["Twitter:CreatorAccount"] ?? "@pixelystudios")" />
+    <meta name="twitter:creator" content="@(ViewData["Twitter:CreatorAccount"] ?? "@dummy-account")" />
     @* Language, Charset and Format Information*@
     <meta charset="utf-8" />
-    <meta lang="en-us" />
+    <meta lang="@cultureFeature.RequestCulture.Culture" />
     <meta http-equiv="content-language" content="@cultureFeature.RequestCulture.UICulture">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     @* Basic Standardized Metadata*@
     <meta name="robots" content="index, follow" />
-    <meta name="application-name" content="Pixely Studios" />
-    <meta name="author" content="Pixely Studios Development Branch" />
-    <meta name="description" content="Public blog from Pixely Studios" />
+    <meta name="application-name" content="NStart" />
+    <meta name="author" content="Leonardo Antonio González Castro" />
+    <meta name="description" content="Default launch page for a Videogame Studio using NStart" />
     <meta name="theme-color" content="#122562" />
-    <meta name="description" content="Official Pixely site" />
-    <meta name="author" content="Pixely Internal Development Team" />
-    <link rel="canonical" href="https://pixely.net" />
+    <meta name="description" content="NStart base template" />
+    <meta name="author" content="Leonardo Antonio González Castro" />
+    <link rel="canonical" href="https://nstart.com" />
     <link rel="manifest" href="~/manifest.json" />
     <link rel="shortcut icon" href="~/assets/icons/favicon.ico" type="image/x-icon" sizes="32x32" />
     <link rel="shortcut icon" href="~/assets/icons/favicon-64px.ico" type="image/x-icon" sizes="64x64" />
@@ -54,10 +54,8 @@
     <title>Pixely | @ViewData["Title"]</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="/lib/bulma/dist/css/bulma.css" />
         <link rel="stylesheet" href="~/lib/animatecss/dist/animate.css" />
-        <link rel="stylesheet" href="~/lib/dropify/dist/css/dropify.css" />
-        <link rel="stylesheet" href="~/lib/easymde/dist/css/easymde.min.css" />
+        <link rel="stylesheet" href="~/lib/material-components/css/material-components-web.css" />
         <link rel="stylesheet" href="~/css/line-awesome/line-awesome.min.css" />
         <link rel="stylesheet" href="~/css/fonts.css" async />
     </environment>
@@ -85,8 +83,8 @@
 <body>
     <nav class="navbar is-spaced is-dark is-transparent is-fixed-top" role="navigation" aria-label="Main Navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">
-                <img src="~/assets/icons/logo-original.svg" alt="Pixely's logotype" title="Pixely Studios" width="32" height="32" />
+            <a class="navbar-item" asp-area="" asp-page="/Pages/Home/HomePage">
+                <img src="~/assets/icons/logo-original.svg" alt="NStart's logotype" title="NStart" width="32" height="32" />
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNavbarElements">
                 <span aria-hidden="true"></span>
@@ -96,9 +94,8 @@
         </div>
         <div class="navbar-menu" id="mainNavbarElements">
             <div class="navbar-start">
-                <a class="navbar-item" asp-area="" asp-page="/Projects/ProjectsIndex">@Localizer["ProjectsNavbar"]</a>
-                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Team">@Localizer["TeamNavbar"]</a>
-                <a class="navbar-item" asp-area="" asp-controller="Privacy" asp-action="Index">@Localizer["PrivacyNavbar"]</a>
+                <a class="navbar-item" asp-area="" asp-page="/Pages/Home/Contact">@Localizer["ProjectsNavbar"]</a>
+                <a asp-area="" asp-page="/Pages/Privacy/PrivacyIndex">@Localizer["PrivacyNavbar"]</a>
             </div>
             <div class="navbar-end">
                 <partial name="_LoginPartial" />
@@ -113,12 +110,11 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
-            &copy; 2020 - Pixely - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2020 - NStart - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js" defer></script>
-        <script src="~/lib/dropify/dist/js/dropify.js" defer></script>
     </environment>
     <environment exclude="Development">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
@@ -127,17 +123,9 @@
                 crossorigin="anonymous"
                 integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=">
         </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js"
-                asp-fallback-src="~/lib/dropify/dist/js/dropify.js"
-                asp-fallback-test="window.Dropify"
-                crossorigin="anonymous"
-                integrity="sha256-SUaao5Q7ifr2twwET0iyXVy0OVnuFJhGVi5E/dqEiLU=">
-        </script>
     </environment>
-    <script src="~/px-service-worker.js"></script>
 
     @RenderSection("Scripts", required: false)
 
-    <script src="/dist/app.bundle.js"></script>
 </body>
 </html>

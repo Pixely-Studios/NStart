@@ -5,7 +5,8 @@
   "private": false,
   "dependencies": {
     "animate.css": "latest",
-    "jquery": "latest"
+    "jquery": "latest",
+    "material-components-web": "^7.0.0"
   },
   "devDependencies": {
     "grunt": "latest",
