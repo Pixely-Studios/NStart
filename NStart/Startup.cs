@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -13,11 +10,13 @@ using NStart.Extensions;
 
 namespace NStart
 {
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1052:Static holder types should be Static or NotInheritable", Justification = "This cannot be null. The program.cs file will fail to start up the system.")]
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "RCS1102:Make class static.", Justification = "This cannot be null. The program.cs file will fail to start up the system.")]
 	public class Startup
 	{
 		// This method gets called by the runtime. Use this method to add services to the container.
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-		public void ConfigureServices(IServiceCollection services)
+		public static void ConfigureServices(IServiceCollection services)
 		{
 			services.AddRouting();
 
@@ -34,8 +33,13 @@ namespace NStart
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public static void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 		{
+			if (app is null)
+				throw new ArgumentNullException(nameof(app));
+			if (env is null)
+				throw new ArgumentNullException(nameof(env));
+
 			if (env.IsDevelopment())
 			{
 				app.UseDeveloperExceptionPage();
@@ -57,10 +61,7 @@ namespace NStart
 
 			app.UseRouting();
 
-			app.UseEndpoints(endpoints =>
-			{
-				endpoints.MapRazorPages();
-			});
+			app.UseEndpoints(endpoints => endpoints.MapRazorPages());
 		}
 	}
 }
