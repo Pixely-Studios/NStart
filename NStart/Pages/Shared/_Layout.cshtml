@@ -40,17 +40,17 @@
     <meta name="robots" content="index, follow" />
     <meta name="application-name" content="NStart" />
     <meta name="author" content="Leonardo Antonio González Castro" />
-    <meta name="description" content="Default launch page for a Videogame Studio using NStart" />
+    <meta name="description" content="Default launch page for a video game Studio using NStart" />
     <meta name="theme-color" content="#122562" />
     <meta name="description" content="NStart base template" />
     <meta name="author" content="Leonardo Antonio González Castro" />
     <link rel="canonical" href="https://nstart.com" />
     <link rel="shortcut icon" href="~/assets/icons/favicon.ico" type="image/x-icon" sizes="32x32" />
     <link rel="shortcut icon" href="~/assets/icons/favicon-64px.ico" type="image/x-icon" sizes="64x64" />
-    <link rel="fluid-icon" href="~/App_Data/Assets/Icons/fluid_icon.png" title="Pixely Studios" />
+    <link rel="fluid-icon" href="~/App_Data/Assets/Icons/fluid_icon.png" title="NStart" />
 
     @* Start of actual site content *@
-    <title>Pixely | @ViewData["Title"]</title>
+    <title>NStart | @ViewData["Title"]</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/animatecss/dist/animate.css" />
@@ -59,7 +59,7 @@
         <link rel="stylesheet" href="~/css/fonts.css" async />
     </environment>
     <environment exclude="Development">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
               asp-fallback-href="~/lib/bulma/dist/css/bulma.css"
               asp-fallback-test-class="is-primary"
               crossorigin="anonymous"
@@ -82,7 +82,7 @@
 <body>
     <nav class="navbar is-spaced is-dark is-transparent is-fixed-top" role="navigation" aria-label="Main Navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" asp-area="" asp-page="/Pages/Home/HomePage">
+            <a class="navbar-item" asp-area="" asp-page="/Home/HomePage">
                 <img src="~/assets/icons/logo-original.svg" alt="NStart's logotype" title="NStart" width="32" height="32" />
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNavbarElements">
@@ -93,8 +93,22 @@
         </div>
         <div class="navbar-menu" id="mainNavbarElements">
             <div class="navbar-start">
-                <a class="navbar-item" asp-area="" asp-page="/Pages/Home/Contact">@Localizer["ProjectsNavbar"]</a>
-                <a asp-area="" asp-page="/Pages/Privacy/PrivacyIndex">@Localizer["PrivacyNavbar"]</a>
+                @* Our Studio Dropdown *@
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Our Studio</a>
+                    <div class="navbar-dropdown is-right">
+                        <a class="navbar-item" asp-area="" asp-page="/Company/ProjectsPage">@Localizer["ProjectsNavbar"]</a>
+                        <a class="navbar-item" asp-area="" asp-page="/Company/TeamPage">@Localizer["TeamNavbar"]</a>
+                        <div class="navbar-divider"></div>
+                        <a class="navbar-item" asp-area="" asp-page="/Company/AwardsPage">@Localizer["AwardsNavbar"]</a>
+                    </div>
+                </div>
+                @* Contact Page *@
+                <a class="navbar-item" asp-area="" asp-page="/Home/ContactPage">@Localizer["ContactNavbar"]</a>
+                @* Media Page *@
+                <a class="navbar-item" asp-area="" asp-page="/Home/MediaPage">@Localizer["MediaNavbar"]</a>
+                @* Privacy Page *@
+                <a class="navbar-item" asp-area="" asp-page="/Privacy/PrivacyIndexPage">@Localizer["PrivacyNavbar"]</a>
             </div>
         </div>
     </nav>
