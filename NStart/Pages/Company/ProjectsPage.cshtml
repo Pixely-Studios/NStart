@@ -1,8 +1,91 @@
 ﻿@page "/projects"
+@inject IViewLocalizer Localizer
 @model NStart.Pages.Company.ProjectsPageModel
 @{
-    ViewData["Title"] = "ProjectsPage";
+    ViewData["Title"] = Localizer["PageTitle"];
 }
 
-<h1>ProjectsPage</h1>
-
+<section class="hero">
+    <div class="hero-body">
+        @* Our Videogames Subsection*@
+        <section>
+            <h1 class="title montserrat_100 has-text-black is-size-2">@Localizer["OurGamesSection"]</h1>
+            <br />
+            <p class="opensans_400 has-text-justified">
+                @Localizer["ProjectsIntroduction"]
+            </p>
+            <hr />
+            @* Videogame Element recommended template *@
+            @* 
+                For each vidogame element that you want to showcase (we recommend every project that you did, even undelivered ones), you should make a copy of the test element.
+                This test element is prepared to handle full metadata recognition by Bing, DuckDuckGo and Google. Almost every other search engine (Like Baidu or Terra) should detect those metadata as they are a UNIVERSAL standard.
+            *@
+            <div itemscope itemtype="http://schema.org/VideoGame">
+                @* Divided Columns for Spec + a short game description *@
+                <div class="container">
+                    <div class="columns">
+                        @* Specs Column *@
+                        <div class="column is-half">
+                            @* A technical card *@
+                            <section class="card">
+                                @* Header of a technical card *@
+                                <header class="card-header">
+                                    <p class="card-header-title montserrat_100">Game Tech Sheet</p>
+                                </header>
+                                @* Content of a technical card *@
+                                <div class="card-content opensans_400">
+                                    @* Launch Date *@
+                                    <p class="montserrat_100">Launch Date: 4/7/2008</p>
+                                    @* Type of Project *@
+                                    <p class="is-success">Delivered Game!</p>
+                                    @* Project Page *@
+                                    <a href="">Game Page</a>
+                                    <hr />
+                                    @* Project Minimum Specs *@
+                                    <p class="montserrat_400 is-size-6">Game Specifications</p>
+                                    <p>Processor: <span itemprop="processorRequirements">x64 capable processor @@ 2.56GHz</span>.</p>
+                                    <p>Memory: <span itemprop="memoryRequirements">6GB DDR4 @@ 3200MHz</span>.</p>
+                                    <p>Storage: <span itemprop="storageRequirements">20GB</span>.</p>
+                                    <hr />
+                                    @* Target Platforms *@
+                                    <p class="montserrat_400 is-size-6">Targeted Platforms</p>
+                                    <ul>
+                                        <li itemprop="gamePlatform">Linux</li>
+                                        <li itemprop="gamePlatform">PC</li>
+                                        <li itemprop="gamePlatform">Xbox</li>
+                                    </ul>
+                                    <p class="montserrat_400 is-size-6">Game modes</p>
+                                    <div>
+                                        <meta itemprop="playMode" content="SinglePlayer" />
+                                        <ul>
+                                            <li>Single Player</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                        </div> 
+                        @* Game Description *@
+                        <div class="column is-half">
+                            @* Project Title *@
+                            <h2 class="title montserrat_100 is-size-4" itemprop="name">Hall of the Dead</h2>
+                            @* Project Publisher *@
+                            <div class="subtitle montserrat_400 is-size-6">
+                                @* Project Developer *@
+                                <div itemscope itemtype="http://schema.org/Organization">
+                                    <p class="montserrat_100">Developer: </p><span itemprop="name">NStart</span>
+                                </div>
+                                @* Project Publisher *@
+                                <p class="montserrat_100">Publisher: <span itemprop="publisher">Fake Publishing LTD</span></p>
+                            </div>
+                            <div class="opensans_400 has-text-justified">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
