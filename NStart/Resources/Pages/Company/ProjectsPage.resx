@@ -128,4 +128,66 @@
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
   </data>
+  <data name="TestProjectDeliverStatus" xml:space="preserve">
+    <value>Delivered Game!</value>
+  </data>
+  <data name="TestProjectGameMode_SinglePlayer" xml:space="preserve">
+    <value>Single Player</value>
+  </data>
+  <data name="TestProjectLaunchDate" xml:space="preserve">
+    <value>Launch Date: 4/7/2008</value>
+  </data>
+  <data name="TestProjectPageLink" xml:space="preserve">
+    <value>Game Page</value>
+  </data>
+  <data name="TestProjectsGameModeHeader" xml:space="preserve">
+    <value>Game modes</value>
+  </data>
+  <data name="TestProjectSheetHeader" xml:space="preserve">
+    <value>Game Technical Sheet</value>
+  </data>
+  <data name="TestProjectSpecificationsHeader" xml:space="preserve">
+    <value>Game Specifications</value>
+  </data>
+  <data name="TestProjectSpecifications_Memory" xml:space="preserve">
+    <value>6GB DDR4 @@ 3200MHz</value>
+  </data>
+  <data name="TestProjectSpecifications_Memory_Header" xml:space="preserve">
+    <value>Memory:</value>
+  </data>
+  <data name="TestProjectSpecifications_Processor" xml:space="preserve">
+    <value>x64 capable processor @@ 2.56GHz</value>
+  </data>
+  <data name="TestProjectSpecifications_Processor_Header" xml:space="preserve">
+    <value>Processor:</value>
+  </data>
+  <data name="TestProjectSpecifications_Storage" xml:space="preserve">
+    <value>20GB</value>
+  </data>
+  <data name="TestProjectSpecifications_Storage_Header" xml:space="preserve">
+    <value>Storage:</value>
+  </data>
+  <data name="TestProjectTargetPlatformsHeader" xml:space="preserve">
+    <value>Targeted Platforms</value>
+  </data>
+  <data name="TestProject_ProjectDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
+  </data>
+  <data name="TestProject_ProjectDeveloper" xml:space="preserve">
+    <value>NStart</value>
+  </data>
+  <data name="TestProject_ProjectDeveloper_Header" xml:space="preserve">
+    <value>Developer:</value>
+  </data>
+  <data name="TestProject_ProjectName" xml:space="preserve">
+    <value>Hall of the Dead</value>
+  </data>
+  <data name="TestProject_ProjectPublisher" xml:space="preserve">
+    <value>Fake Publishing LTD</value>
+  </data>
+  <data name="TestProject_ProjectPublisher_Header" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
 </root>

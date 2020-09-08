@@ -30,58 +30,55 @@
                             <section class="card">
                                 @* Header of a technical card *@
                                 <header class="card-header">
-                                    <p class="card-header-title montserrat_100">Game Tech Sheet</p>
+                                    <p class="card-header-title montserrat_100">@Localizer["TestProjectSheetheader"]</p>
                                 </header>
                                 @* Content of a technical card *@
                                 <div class="card-content opensans_400">
                                     @* Launch Date *@
-                                    <p class="montserrat_100">Launch Date: 4/7/2008</p>
+                                    <p class="montserrat_100">@Localizer["TestProjectLaunchDate"]</p>
                                     @* Type of Project *@
-                                    <p class="is-success">Delivered Game!</p>
+                                    <p class="is-success">@Localizer["TestProjectDeliverStatus"]</p>
                                     @* Project Page *@
-                                    <a href="">Game Page</a>
+                                    <a href="">@Localizer["TestProjectPageLink"]</a>
                                     <hr />
                                     @* Project Minimum Specs *@
-                                    <p class="montserrat_400 is-size-6">Game Specifications</p>
-                                    <p>Processor: <span itemprop="processorRequirements">x64 capable processor @@ 2.56GHz</span>.</p>
-                                    <p>Memory: <span itemprop="memoryRequirements">6GB DDR4 @@ 3200MHz</span>.</p>
-                                    <p>Storage: <span itemprop="storageRequirements">20GB</span>.</p>
+                                    <p class="montserrat_400 is-size-6">@Localizer["TestProjectSpecificationsHeader"]</p>
+                                    <p>@Localizer["TestProjectSpecifications_Processor_Header"]<span itemprop="processorRequirements">@Localizer["TestProjectSpecifications_Processor"]</span>.</p>
+                                    <p>@Localizer["TestProjectSpecifications_Memory_Header"]<span itemprop="memoryRequirements">@Localizer["TestProjectSpecifications_Memory"]</span>.</p>
+                                    <p>@Localizer["TestProjectSpecifications_Storage_Header"]<span itemprop="storageRequirements">@Localizer["TestProjectSpecifications_Storage"]</span>.</p>
                                     <hr />
                                     @* Target Platforms *@
-                                    <p class="montserrat_400 is-size-6">Targeted Platforms</p>
+                                    <p class="montserrat_400 is-size-6">@Localizer["TestProjectTargetPlatformsHeader"]</p>
                                     <ul>
                                         <li itemprop="gamePlatform">Linux</li>
                                         <li itemprop="gamePlatform">PC</li>
                                         <li itemprop="gamePlatform">Xbox</li>
                                     </ul>
-                                    <p class="montserrat_400 is-size-6">Game modes</p>
+                                    @* Supported Game Modes *@
+                                    <p class="montserrat_400 is-size-6">@Localizer["TestProjectsGameModeHeader"]</p>
                                     <div>
                                         <meta itemprop="playMode" content="SinglePlayer" />
                                         <ul>
-                                            <li>Single Player</li>
+                                            <li>@Localizer["TestProjectGameMode_SinglePlayer"]</li>
                                         </ul>
                                     </div>
                                 </div>
                             </section>
-                        </div> 
+                        </div>
                         @* Game Description *@
                         <div class="column is-half">
                             @* Project Title *@
-                            <h2 class="title montserrat_100 is-size-4" itemprop="name">Hall of the Dead</h2>
+                            <h2 class="title montserrat_100 is-size-4" itemprop="name">@Localizer["TestProject_ProjectName"]</h2>
                             @* Project Publisher *@
                             <div class="subtitle montserrat_400 is-size-6">
                                 @* Project Developer *@
                                 <div itemscope itemtype="http://schema.org/Organization">
-                                    <p class="montserrat_100">Developer: </p><span itemprop="name">NStart</span>
+                                    <p class="montserrat_100">@Localizer["TestProject_ProjectDeveloper_Header"]</p><span itemprop="name">@Localizer["TestProject_ProjectDeveloper"]</span>
                                 </div>
                                 @* Project Publisher *@
-                                <p class="montserrat_100">Publisher: <span itemprop="publisher">Fake Publishing LTD</span></p>
+                                <p class="montserrat_100">@Localizer["TestProject_ProjectPublisher_Header"]<span itemprop="publisher">@Localizer["TestProject_ProjectPublisher"]</span></p>
                             </div>
-                            <div class="opensans_400 has-text-justified">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                            </div>
+                            <div class="opensans_400 has-text-justified">@Localizer["TestProject_ProjectDescription"]</div>
                         </div> 
                     </div>
                 </div>
