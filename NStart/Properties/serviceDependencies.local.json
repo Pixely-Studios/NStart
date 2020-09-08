@@ -5,6 +5,9 @@
       "type": "appInsights.sdk",
       "connectionId": null,
       "secretStore": null
+    },
+    "secrets1": {
+      "type": "secrets.user"
     }
   }
 }
