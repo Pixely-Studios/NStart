@@ -1,8 +1,36 @@
 ﻿@page "/awards"
+@inject IViewLocalizer Localizer
 @model NStart.Pages.Home.AwardsPageModel
 @{
-    ViewData["Title"] = "AwardsPage";
+    ViewData["Title"] = Localizer["PageTitle"];
 }
 
-<h1>AwardsPage</h1>
-
+<section class="hero">
+    <div class="hero-body">
+        @* Awards & Recognitions Subsection *@
+        <section>
+            <h1 class="title montserrat_100 has-text-black is-size-4">@Localizer["AwardsHeader"]</h1>
+            <br />
+            <p class="opensans_400 has-text-justified">
+                @Localizer["AwardsIntroduction"]
+            </p>
+            <ul style="margin-top: 2rem; margin-bottom: 1rem;">
+                <li>@Localizer["Awards_1"]</li>
+                <li>@Localizer["Awards_2"]</li>
+                <li>@Localizer["Awards_3"]</li>
+                <li>@Localizer["Awards_4"]</li>
+                <li>@Localizer["Awards_5"]</li>
+            </ul>
+        </section>
+        @* Featured News Articles *@
+        <section>
+            <h1 class="title montserrat_100 has-text-black is-size-4">@Localizer["FeaturedArticlesHeader"]</h1>
+            <ul style="margin-top: 2rem;">
+                <li>@Localizer["Articles_1"]</li>
+                <li>@Localizer["Articles_2"]</li>
+                <li>@Localizer["Articles_3"]</li>
+                <li>@Localizer["Articles_4"]</li>
+            </ul>
+        </section>
+    </div>
+</section>
