@@ -1,0 +1,12 @@
+/* Webfont: Montserrat-Bold */@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Montserrat-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Montserrat-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Montserrat-Bold.svg#Montserrat-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

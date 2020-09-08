@@ -1,0 +1,12 @@
+/* Webfont: OpenSans-Light */@font-face {
+    font-family: 'OpenSansLight';
+    src: url('OpenSans-Light.eot'); /* IE9 Compat Modes */
+    src: url('OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('OpenSans-Light.woff') format('woff'), /* Modern Browsers */
+         url('OpenSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('OpenSans-Light.svg#OpenSans-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

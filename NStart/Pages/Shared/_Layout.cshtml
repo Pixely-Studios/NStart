@@ -48,10 +48,9 @@
     <link rel="shortcut icon" href="~/assets/icons/favicon.ico" type="image/x-icon" sizes="32x32" />
     <link rel="shortcut icon" href="~/assets/icons/favicon-64px.ico" type="image/x-icon" sizes="64x64" />
     <link rel="fluid-icon" href="~/App_Data/Assets/Icons/fluid_icon.png" title="NStart" />
-
     @* Start of actual site content *@
     <title>NStart | @ViewData["Title"]</title>
-
+    @* Environment based CSS & JS includes *@
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/animatecss/dist/animate.css" />
         <link rel="stylesheet" href="~/lib/bulma/dist/css/bulma.css" />
@@ -80,6 +79,7 @@
     @RenderSection("ExtraStyles", false)
 </head>
 <body>
+    @* Navbar container*@
     <nav class="navbar is-spaced is-dark is-transparent is-fixed-top" role="navigation" aria-label="Main Navigation">
         <div class="navbar-brand">
             <a class="navbar-item" asp-area="" asp-page="/Home/HomePage">
@@ -112,17 +112,15 @@
             </div>
         </div>
     </nav>
+    @* Partial RazorPage view that holds our Cookie Consent *@
     <partial name="_CookieConsentPartial" />
+    @* Main container of the application's view *@
     <main role="main">
         @RenderBody()
     </main>
-
-
-    <footer class="footer">
-        <div class="content has-text-centered">
-            &copy; 2020 - NStart - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    @* Partial RazorPage view that holds our global Footer *@
+    <partial name="_FooterPartial" />
+    @* Environment based JavaScript includes*@
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js" defer></script>
     </environment>

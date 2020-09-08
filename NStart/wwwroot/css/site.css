@@ -1,2 +1,38 @@
-﻿body {
+﻿/*  Text Syles
+    ---------------------------------------------------------------------
+*/
+/* Text Colours + Styles */
+.light-title {
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+.has-text-white {
+    color: #fff !important;
+}
+
+.has-text-light {
+    color: #f5f5f5 !important;
+    text-shadow: 4px 4px 5px black
+}
+
+/* Text Stiling Overrides */
+.has-text-weight-bold {
+    font-weight: 700 !important;
+}
+
+/* Font Definitions */
+.montserrat_100 {
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+.montserrat_400 {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.opensans_400 {
+    font-family: Open Sans;
+    font-weight: 400;
 }

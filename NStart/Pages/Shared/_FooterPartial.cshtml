@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.AspNetCore.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    var cultureFeature = Context.Features.Get<IRequestCultureFeature>();
+}
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        &copy; 2020 - NStart - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>

@@ -1,0 +1,12 @@
+/* Webfont: OpenSans-Italic */@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-Italic.eot'); /* IE9 Compat Modes */
+    src: url('OpenSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('OpenSans-Italic.woff') format('woff'), /* Modern Browsers */
+         url('OpenSans-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('OpenSans-Italic.svg#OpenSans-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
