@@ -43,7 +43,6 @@ namespace NStart.Extensions
 				options.SupportedCultures = SupportedCultures;
 				options.SupportedUICultures = SupportedCultures;
 				options.RequestCultureProviders.Insert(0, new AcceptLanguageHeaderRequestCultureProvider());
-				options.RequestCultureProviders.Insert(1, new CookieRequestCultureProvider());
 			});
 
 			services.AddLocalization(options => options.ResourcesPath = "Resources");

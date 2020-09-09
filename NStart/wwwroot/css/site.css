@@ -1,7 +1,15 @@
-﻿/*  Text Syles
+﻿/*  Layout Styles
     ---------------------------------------------------------------------
 */
-/* Text Colours + Styles */
+.header-with-margins {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+/*  Text Styles
+    ---------------------------------------------------------------------
+*/
+/* Text Colors + Styles */
 .light-title {
     font-family: Montserrat;
     font-weight: 100;

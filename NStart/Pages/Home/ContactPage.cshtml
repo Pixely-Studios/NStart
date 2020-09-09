@@ -1,8 +1,35 @@
 ﻿@page "/contact-us"
 @model NStart.Pages.Home.ContactPageModel
 @{
-    ViewData["Title"] = "ContactPage";
+    ViewData["Title"] = "Contact Information";
 }
 
-<h1>ContactPage</h1>
-
+@* Contact Header Text *@
+<div class="header-with-margins has-text-centered">
+    <h1 class="title montserrat_100 has-text-black is-2">Contact Information</h1>
+</div>
+@* Contact Information Container *@
+<div class="container">
+    <div class="columns">
+        @* Physical Information *@
+        <div class="column is-half">
+            <h2 class="title montserrat_100 is-4">Physical Contacts</h2>
+            <p class="opensans_400">
+                Sunset Drive 123
+                Vice City, Continental Country
+            </p>
+            <p class="montserrat_400">P.O. Box: <span class="opensans_400"></span></p>
+            <p class="montserrat_400">Telephone: <span class="opensans_400"> +0 (123)-456-7890</span></p>
+        </div>
+        @* Digital Information *@
+        <div class="column is-half">
+            <h2 class="title montserrat_100 is-4">Digital Contacts</h2>
+            <p class="montserrat_400">Press/Business Contact: <span class="opensans_400"><a href="">company-business-inbox@@domain.com</a></span></p>
+            <p class="montserrat_400">Support Contact: <span class="opensans_400"><a href="">support@@domain.com</a></span></p>
+            <p class="montserrat_400">Users Contact: <span class="opensans_400"><a href="">users-inbox@@domain.com</a></span></p>
+            <br />
+            <p class="montserrat_400">Facebook Account: <span class="opensans_400"><a href="">facebook.com/nstart</a></span></p>
+            <p class="montserrat_400">Twitter Account: <span class="opensans_400"><a href="">@@nstart</a></span></p>
+        </div>
+    </div>
+</div>
