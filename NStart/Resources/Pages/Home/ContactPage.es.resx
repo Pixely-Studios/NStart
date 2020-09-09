@@ -117,25 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AwardsNavbar" xml:space="preserve">
-    <value>Awards &amp; Recognitions</value>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>Información de Contacto</value>
   </data>
-  <data name="ContactNavbar" xml:space="preserve">
-    <value>Contact Us</value>
+  <data name="DigitalBusinessContact" xml:space="preserve">
+    <value>Contacto de negocios o prensa: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;company-business-inbox@domain.com&lt;/a&gt;&lt;/span&gt;</value>
   </data>
-  <data name="LogoAlt" xml:space="preserve">
-    <value>NStart's Logotype</value>
+  <data name="DigitalContactHeader" xml:space="preserve">
+    <value>Contacto digital</value>
   </data>
-  <data name="MediaNavbar" xml:space="preserve">
-    <value>Media</value>
+  <data name="DigitalFacebookContact" xml:space="preserve">
+    <value>Cuenta de Facebook: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;facebook.com/nstart&lt;/a&gt;&lt;/span&gt;</value>
   </data>
-  <data name="ProjectsNavbar" xml:space="preserve">
-    <value>Projects</value>
+  <data name="DigitalSupportContact" xml:space="preserve">
+    <value>Buzón de Soporte: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;support@domain.com&lt;/a&gt;&lt;/span&gt;</value>
   </data>
-  <data name="StudioDropdown" xml:space="preserve">
-    <value>Our Studio</value>
+  <data name="DigitalTwitterContact" xml:space="preserve">
+    <value>Cuenta de Twitter: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;@nstart&lt;/a&gt;&lt;/span&gt;</value>
   </data>
-  <data name="TeamNavbar" xml:space="preserve">
-    <value>Team</value>
+  <data name="DigitalUsersContact" xml:space="preserve">
+    <value>Buzón para Usuarios: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;users-inbox@domain.com&lt;/a&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Información de Contacto</value>
+  </data>
+  <data name="PhysicalAddress" xml:space="preserve">
+    <value>Sunset Drive 123. Vice City, Continental Country</value>
+  </data>
+  <data name="PhysicalContactHeader" xml:space="preserve">
+    <value>Contacto físico</value>
+  </data>
+  <data name="PhysicalPhone" xml:space="preserve">
+    <value>Teléfono: &lt;span class="opensans_400"&gt; +0 (123)-456-7890&lt;/span&gt;</value>
+  </data>
+  <data name="PhysicalPostOfficeBox" xml:space="preserve">
+    <value>Buzón Postal: &lt;span class="opensans_400"&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>Todos los medios de contacto (digitales o en persona) que estamos usando actualmente.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
   </data>
 </root>

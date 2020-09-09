@@ -117,25 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AwardsNavbar" xml:space="preserve">
-    <value>Awards &amp; Recognitions</value>
+  <data name="ErrorFormat" xml:space="preserve">
+    <value>Error {0}</value>
   </data>
-  <data name="ContactNavbar" xml:space="preserve">
-    <value>Contact Us</value>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>Una página de error de un sistema NStart.</value>
   </data>
-  <data name="LogoAlt" xml:space="preserve">
-    <value>NStart's Logotype</value>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
   </data>
-  <data name="MediaNavbar" xml:space="preserve">
-    <value>Media</value>
-  </data>
-  <data name="ProjectsNavbar" xml:space="preserve">
-    <value>Projects</value>
-  </data>
-  <data name="StudioDropdown" xml:space="preserve">
-    <value>Our Studio</value>
-  </data>
-  <data name="TeamNavbar" xml:space="preserve">
-    <value>Team</value>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
   </data>
 </root>

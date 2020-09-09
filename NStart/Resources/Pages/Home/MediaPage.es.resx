@@ -117,25 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AwardsNavbar" xml:space="preserve">
-    <value>Awards &amp; Recognitions</value>
+  <data name="FeaturedPictures_Header" xml:space="preserve">
+    <value>Fotografías destacadas</value>
   </data>
-  <data name="ContactNavbar" xml:space="preserve">
-    <value>Contact Us</value>
+  <data name="FeaturedVideos_Header" xml:space="preserve">
+    <value>Videos destacados</value>
   </data>
-  <data name="LogoAlt" xml:space="preserve">
-    <value>NStart's Logotype</value>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Multimedia destacada</value>
   </data>
-  <data name="MediaNavbar" xml:space="preserve">
-    <value>Media</value>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>Un listado de fotos y videos destacados de nuestro equipo, recolectados por nosotros.</value>
   </data>
-  <data name="ProjectsNavbar" xml:space="preserve">
-    <value>Projects</value>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
   </data>
-  <data name="StudioDropdown" xml:space="preserve">
-    <value>Our Studio</value>
-  </data>
-  <data name="TeamNavbar" xml:space="preserve">
-    <value>Team</value>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
   </data>
 </root>

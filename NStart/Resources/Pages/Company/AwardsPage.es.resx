@@ -117,25 +117,54 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AwardsNavbar" xml:space="preserve">
-    <value>Awards &amp; Recognitions</value>
+  <data name="Articles_1" xml:space="preserve">
+    <value>&lt;a href=""&gt;Hitch Gamer: Como hacer un juego indie prometedor. 2009.&lt;/a&gt;</value>
   </data>
-  <data name="ContactNavbar" xml:space="preserve">
-    <value>Contact Us</value>
+  <data name="Articles_2" xml:space="preserve">
+    <value>&lt;a href=""&gt;Future Innovations: Los 10 mejores stacks de tecnologias. 2011.&lt;/a&gt;</value>
   </data>
-  <data name="LogoAlt" xml:space="preserve">
-    <value>NStart's Logotype</value>
+  <data name="Articles_3" xml:space="preserve">
+    <value>&lt;a href=""&gt;OpenGaming: El legado de una leyenda en nuestra industria. 2015.&lt;/a&gt;</value>
   </data>
-  <data name="MediaNavbar" xml:space="preserve">
-    <value>Media</value>
+  <data name="Articles_4" xml:space="preserve">
+    <value>&lt;a href=""&gt;FakeSite: El conflicto no hablado de la industria del videojuego. 2018.&lt;/a&gt;</value>
   </data>
-  <data name="ProjectsNavbar" xml:space="preserve">
-    <value>Projects</value>
+  <data name="AwardsHeader" xml:space="preserve">
+    <value>Nuestros premios y reconocimientos</value>
   </data>
-  <data name="StudioDropdown" xml:space="preserve">
-    <value>Our Studio</value>
+  <data name="AwardsIntroduction" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
   </data>
-  <data name="TeamNavbar" xml:space="preserve">
-    <value>Team</value>
+  <data name="Awards_1" xml:space="preserve">
+    <value>&lt;a href=""&gt;2008: Premio a la innovacion.&lt;/a&gt;</value>
+  </data>
+  <data name="Awards_2" xml:space="preserve">
+    <value>&lt;a href=""&gt;2009: Premio Game of the Year. Categoria: Diseño de Sonido. Resultado: Ganador.&lt;/a&gt;</value>
+  </data>
+  <data name="Awards_3" xml:space="preserve">
+    <value>&lt;a href=""&gt; 2011: Nominado al Mejor juego del E3 por RadSpot.&lt;/a&gt;</value>
+  </data>
+  <data name="Awards_4" xml:space="preserve">
+    <value>&lt;a href=""&gt;2013: Mejor estudio europeo para trabajar.&lt;/a&gt;</value>
+  </data>
+  <data name="Awards_5" xml:space="preserve">
+    <value>&lt;a href=""&gt;2017: Mejor resurgir de un estudio.&lt;/a&gt;</value>
+  </data>
+  <data name="FeaturedArticlesHeader" xml:space="preserve">
+    <value>Articulos de noticias promocionados</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Premios y Reconocimientos</value>
+  </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>Un listado de todos los premios y reconocimientos que nuestro estudio ha ganado.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
   </data>
 </root>

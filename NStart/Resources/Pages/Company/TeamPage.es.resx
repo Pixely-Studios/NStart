@@ -117,25 +117,72 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AwardsNavbar" xml:space="preserve">
-    <value>Awards &amp; Recognitions</value>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>Información de contacto</value>
   </data>
-  <data name="ContactNavbar" xml:space="preserve">
-    <value>Contact Us</value>
+  <data name="PageHeader" xml:space="preserve">
+    <value>Conoce a nuestro equipo</value>
   </data>
-  <data name="LogoAlt" xml:space="preserve">
-    <value>NStart's Logotype</value>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Nuestro equipo</value>
   </data>
-  <data name="MediaNavbar" xml:space="preserve">
-    <value>Media</value>
+  <data name="TeammateA_Contact_MailInbox" xml:space="preserve">
+    <value>Buzón de correo público: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
   </data>
-  <data name="ProjectsNavbar" xml:space="preserve">
-    <value>Projects</value>
+  <data name="TeammateA_Contact_OfficeHours" xml:space="preserve">
+    <value>Horario de oficina: 6AM - 4PM (Todos los dias).</value>
   </data>
-  <data name="StudioDropdown" xml:space="preserve">
-    <value>Our Studio</value>
+  <data name="TeammateA_Contact_TwitterAccount" xml:space="preserve">
+    <value>Cuenta de Twitter: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
   </data>
-  <data name="TeamNavbar" xml:space="preserve">
-    <value>Team</value>
+  <data name="TeammateA_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
+  </data>
+  <data name="TeammateA_Name" xml:space="preserve">
+    <value>Patrick Walker</value>
+  </data>
+  <data name="TeammateA_Picture_Alt" xml:space="preserve">
+    <value>Foto de Patrick Walker</value>
+  </data>
+  <data name="TeammateA_Picture_Title" xml:space="preserve">
+    <value>Foto de Patrick Walker</value>
+  </data>
+  <data name="TeammateA_Position" xml:space="preserve">
+    <value>CEO de NStart</value>
+  </data>
+  <data name="TeammateB_Contact_MailInbox" xml:space="preserve">
+    <value>Buzón de correo público: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
+  </data>
+  <data name="TeammateB_Contact_OfficeHours" xml:space="preserve">
+    <value>Horario de oficina: 10AM - 2PM (Lunes a Viernes).</value>
+  </data>
+  <data name="TeammateB_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
+  </data>
+  <data name="TeammateB_Name" xml:space="preserve">
+    <value>Megan Bailey</value>
+  </data>
+  <data name="TeammateB_Picture_Alt" xml:space="preserve">
+    <value>Foto de Megan Bailey</value>
+  </data>
+  <data name="TeammateB_Picture_Title" xml:space="preserve">
+    <value>Foto de Megan Bailey</value>
+  </data>
+  <data name="TeammateB_Position" xml:space="preserve">
+    <value>CFO de NStart</value>
+  </data>
+  <data name="TeammateB_TwitterAccount" xml:space="preserve">
+    <value>Cuenta de Twitter: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
+  </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>Nuestros miembros de equipo a tiempo completo y alguno de nuestros contractores y desarrolladores externos más frecuentes.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
   </data>
 </root>

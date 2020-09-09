@@ -73,10 +73,10 @@
 </head>
 <body>
     @* Navbar container*@
-    <nav class="navbar is-spaced is-dark is-transparent is-fixed-top" role="navigation" aria-label="Main Navigation">
+    <nav class="navbar is-spaced is-dark is-transparent is-fixed-top" role="navigation">
         <div class="navbar-brand">
             <a class="navbar-item" asp-area="" asp-page="/Home/HomePage">
-                <img src="~/assets/icons/logo-original.svg" alt="NStart's logotype" title="NStart" width="32" height="32" />
+                <img src="~/assets/icons/logo-original.svg" alt="@Localizer["LogoAlt"]" title="NStart" width="32" height="32" />
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNavbarElements">
                 <span aria-hidden="true"></span>
@@ -88,7 +88,7 @@
             <div class="navbar-start">
                 @* Our Studio Dropdown *@
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">Our Studio</a>
+                    <a class="navbar-link">@Localizer["StudioDropdown"]</a>
                     <div class="navbar-dropdown is-right">
                         <a class="navbar-item" asp-area="" asp-page="/Company/ProjectsPage">@Localizer["ProjectsNavbar"]</a>
                         <a class="navbar-item" asp-area="" asp-page="/Company/TeamPage">@Localizer["TeamNavbar"]</a>

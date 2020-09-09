@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AwardsNavbar" xml:space="preserve">
-    <value>Awards &amp; Recognitions</value>
+    <value>Premios y Reconocimientos</value>
   </data>
   <data name="ContactNavbar" xml:space="preserve">
-    <value>Contact Us</value>
+    <value>Contáctanos</value>
   </data>
   <data name="LogoAlt" xml:space="preserve">
-    <value>NStart's Logotype</value>
+    <value>Logotipo de NStart</value>
   </data>
   <data name="MediaNavbar" xml:space="preserve">
-    <value>Media</value>
+    <value>Multimedia</value>
   </data>
   <data name="ProjectsNavbar" xml:space="preserve">
-    <value>Projects</value>
+    <value>Proyectos</value>
   </data>
   <data name="StudioDropdown" xml:space="preserve">
-    <value>Our Studio</value>
+    <value>Nuestro Estudio</value>
   </data>
   <data name="TeamNavbar" xml:space="preserve">
-    <value>Team</value>
+    <value>El Equipo</value>
   </data>
 </root>
