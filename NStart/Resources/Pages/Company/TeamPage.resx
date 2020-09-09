@@ -176,4 +176,13 @@
   <data name="TeammateB_TwitterAccount" xml:space="preserve">
     <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
   </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>Our current full-time team members and some of our most frecuent contractors and outside developers.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
+  </data>
 </root>

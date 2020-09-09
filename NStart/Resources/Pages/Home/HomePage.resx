@@ -165,4 +165,13 @@
   <data name="StudioSlogan" xml:space="preserve">
     <value>A easier way to tell the world about your videogames studio</value>
   </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>A basic NStart project</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
+  </data>
 </root>

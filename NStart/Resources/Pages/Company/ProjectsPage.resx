@@ -190,4 +190,13 @@
   <data name="TestProject_ProjectPublisher_Header" xml:space="preserve">
     <value>Publisher:</value>
   </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>A comprehensive list of all the videogame projects that we have developed.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
+  </data>
 </root>

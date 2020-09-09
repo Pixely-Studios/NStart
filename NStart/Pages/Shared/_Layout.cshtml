@@ -5,32 +5,29 @@
 }
 
 <!DOCTYPE html>
-<html lang="@cultureFeature.RequestCulture.UICulture" class="has-spaced-navbar-fixed-top">
+<html lang="@cultureFeature.RequestCulture.Culture" class="has-spaced-navbar-fixed-top">
 <head>
-    @* Microsoft Web Metadata *@
-    <meta name="msapplication-TileImage" content="icon.png" />
-    <meta name="msapplication-TileColor" content="#122562" />
-    <meta name="msapplication-starturl" content="https://nstart.com" />
-    <meta name="msapplication-navbutton-color" content="#122562" />
     @* OG:Metadata Types*@
-    <meta prefix="og: http://ogp.me/ns#" property="title" content="@ViewData["Title"]" />
-    <meta prefix="og: http://ogp.me/ns#" property="site_name" content="NStart" />
-    <meta prefix="og: http://ogp.me/ns#" property="url" content="https://nstart.com" />
-    <meta prefix="og: http://ogp.me/ns#" property="type" content="article" />
-    <meta prefix="og: http://ogp.me/ns#" property="locale" content="en-US" />
+    <meta property="og:site_name" content="NStart"/>
+    <meta property="og:title" content="@(ViewData["Title"] ?? "Unknown Page")"/>
+    <meta property="og:url" content="@(ViewData["PageUrl"] ?? "https://nstart.net")" />
+    <meta property="og:type" content="@(ViewData["OpenGraph:ContentType"] ?? "website")" />
+    <meta property="og:locale" content="@cultureFeature.RequestCulture.Culture" />
+    <meta property="og:image" content="@(ViewData["MetadataImage"] ?? "https://nstart.net/static/defaults/default-twitter-image.png")" />
+    <meta property="og:image:secure_url" content="@(ViewData["MetadataImage"] ?? "https://nstart.net/static/defaults/default-twitter-image.png"))" />
     @* Twitter Cards *@
     <meta name="twitter:card" content="@(ViewData["Twitter:CardType"] ?? "summary") " />
     <meta name="twitter:title" content="@(ViewData["Twitter:Title"] ?? "NStart")" />
     <meta name="twitter:description" content="@(ViewData["Twitter:Description"] ?? "A default Videogame Studio landing page created with NStart")" />
-    <meta name="twitter:url" content="@(ViewData["Twitter:URL"] ?? "https://nstart.net")" />
-    <meta name="twitter:image" content="@(ViewData["Twitter:Image"] ?? "https://nstart.net/static/defaults/default-twitter-image.png")" />
+    <meta name="twitter:url" content="@(ViewData["PageUrl"] ?? "https://nstart.net")" />
+    <meta name="twitter:image" content="@(ViewData["MetadataImage"] ?? "https://nstart.net/static/defaults/default-twitter-image.png")" />
     <meta name="twitter:image:alt" content="@(ViewData["Twitter:ImageAlt"] ?? "Default NStart page Twitter image")" />
     <meta name="twitter:site" content="@@dummy-account" />
     <meta name="twitter:creator" content="@(ViewData["Twitter:CreatorAccount"] ?? "@dummy-account")" />
     @* Language, Charset and Format Information*@
     <meta charset="utf-8" />
     <meta lang="@cultureFeature.RequestCulture.Culture" />
-    <meta http-equiv="content-language" content="@cultureFeature.RequestCulture.UICulture">
+    <meta http-equiv="content-language" content="@cultureFeature.RequestCulture.Culture">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">

@@ -3,6 +3,14 @@
 @model NStart.Pages.Home.AwardsPageModel
 @{
     ViewData["Title"] = Localizer["PageTitle"];
+    // OpenGraph + Universal Metadata
+    ViewData["Title"] = Localizer["PageTitle"];
+    ViewData["PageUrl"] = Url.PageLink().ToString();
+    ViewData["MetadataImage"] = Localizer["TwitterImage"];
+    // Twitter Metadata
+    ViewData["Twitter:Title"] = Localizer["PageTitle"];
+    ViewData["Twitter:Description"] = Localizer["TwitterDescription"];
+    ViewData["Twitter:ImageAlt"] = Localizer["TwitterImageAlt"];
 }
 
 <section class="hero">

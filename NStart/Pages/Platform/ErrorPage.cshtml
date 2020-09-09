@@ -1,7 +1,16 @@
 ﻿@page "/error/{Code=int}"
+@inject IViewLocalizer Localizer
 @model NStart.Pages.Platform.ErrorPageModel
 @{
-    ViewData["Title"] = "Error " + ViewData["Code"];
+    string uniformErrorMessage = string.Format(System.Globalization.CultureInfo.InvariantCulture, Localizer["ErrorFormat"].Value, ViewData["Code"] ?? 500);
+    // OpenGraph + Universal Metadata
+    ViewData["Title"] = uniformErrorMessage;
+    ViewData["PageUrl"] = Url.PageLink().ToString();
+    ViewData["MetadataImage"] = Localizer["TwitterImage"];
+    // Twitter Metadata
+    ViewData["Twitter:Title"] = uniformErrorMessage;
+    ViewData["Twitter:Description"] = Localizer["TwitterDescription"];
+    ViewData["Twitter:ImageAlt"] = Localizer["TwitterImageAlt"];
 }
 
 <h1>ErrorPage + @ViewData["Code"]</h1>

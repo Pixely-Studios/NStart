@@ -126,4 +126,13 @@
   <data name="PageTitle" xml:space="preserve">
     <value>Featured Multimedia</value>
   </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>A list of featured pictures and videos of our team, curated by us.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
+  </data>
 </root>

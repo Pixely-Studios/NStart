@@ -158,4 +158,13 @@
   <data name="PageTitle" xml:space="preserve">
     <value>Awards &amp; Recognitions</value>
   </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>A list of all the awards and recognitions that our studo has won.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
+  </data>
 </root>

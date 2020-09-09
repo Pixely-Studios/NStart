@@ -153,4 +153,13 @@
   <data name="PhysicalPostOfficeBox" xml:space="preserve">
     <value>P.O. Box: &lt;span class="opensans_400"&gt;&lt;/span&gt;</value>
   </data>
+  <data name="TwitterDescription" xml:space="preserve">
+    <value>All the means of contacts (digital or IRL) that we are currently using.</value>
+  </data>
+  <data name="TwitterImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterImageAlt" xml:space="preserve">
+    <value />
+  </data>
 </root>
