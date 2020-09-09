@@ -1,7 +1,6 @@
 ﻿using System.Globalization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
-using Microsoft.AspNetCore.Mvc.Localization;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace NStart.Extensions
@@ -35,8 +34,13 @@ namespace NStart.Extensions
 			new CultureInfo("ru")
 		};
 
+		/// <summary>
+		/// Platform wrapper for adding our custom localization configuration
+		/// </summary>
+		/// <param name="services">Collection of services to add this configuration</param>
 		public static void AddCustomLocalization(this IServiceCollection services)
 		{
+			// Configure our Request Localization options
 			services.Configure<RequestLocalizationOptions>(options =>
 			{
 				options.DefaultRequestCulture = new RequestCulture(culture: DefaultCulture, uiCulture: DefaultCulture);
@@ -44,7 +48,7 @@ namespace NStart.Extensions
 				options.SupportedUICultures = SupportedCultures;
 				options.RequestCultureProviders.Insert(0, new AcceptLanguageHeaderRequestCultureProvider());
 			});
-
+			// Add localization to our Application, and the RESX files are under the Resources directory
 			services.AddLocalization(options => options.ResourcesPath = "Resources");
 		}
 	}
