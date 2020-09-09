@@ -1,70 +1,65 @@
 ﻿@page "/our-team"
+@inject IViewLocalizer Localizer
 @model NStart.Pages.Company.TeamPageModel
 @{
-    ViewData["Title"] = "Our Team";
+    ViewData["Title"] = Localizer["PageTitle"];
 }
 
 @* Team Header Text *@
-<div class="has-text-centered" style="margin-top: 1rem; margin-bottom: 5rem;">
-    <h1 class="title montserrat_100 has-text-black is-2">Meet our Team</h1>
+<div class="header-with-margins has-text-centered">
+    <h1 class="title montserrat_100 has-text-black is-2">@Localizer["PageHeader"]</h1>
 </div>
 @* You should make in here you our layout for every teammate that you want to showcase in your Studio's page. *@
 <div class="container">
     @* Example Teammate A *@
     <div class="columns" style="margin-top:2rem; margin-bottom:2rem;">
-        @* Teamate Image *@
+        @* Teammate Image *@
         <div class="column is-one-third">
             <figure class="image is-4by3">
-                <img src="~/assets/pages/landing-hero.png" title="Patrick Walker's picture" alt="Patrick Walker's picture" />
+                <img src="~/assets/pages/landing-hero.png" title="@Localizer["TeammateA_Picture_Title"]" alt="@Localizer["TeammateA_Picture_Alt"]" />
             </figure>
         </div>
-        @* Teamate Description *@
+        @* Teammate Description *@
         <div class="column is-two-thirds">
             @* Teammate name & position *@
-            <h2 class="title montserrat_100 is-4">Patrick Walker</h2>
-            <h3 class="subtitle montserrat_400 is-6">NStart CEO</h3>
+            <h2 class="title montserrat_100 is-4">@Localizer["TeammateA_Name"]</h2>
+            <h3 class="subtitle montserrat_400 is-6">@Localizer["TeammateA_Position"]</h3>
             <hr />
             @* Short Teammate description*@
-            <p class="opensans_400 has-text-justified">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </p>
+            <p class="opensans_400 has-text-justified">@Localizer["TeammateA_Description"]</p>
             <br />
             @* Teammate various contact information ways *@
-            <h4>Contact information</h4>
+            <h4>@Localizer["ContactHeader"]</h4>
             <ul class="opensans_400">
-                <li>Office Hours: 6AM - 4PM (Every Day).</li>
-                <li>Public Mail Inbox: <a href="">fakeuser@@domain.com</a>.</li>
-                <li>Twitter Account: <a href="">@@fakeuser</a>.</li>
+                <li>@Localizer["TeammateA_Contact_OfficeHours"]</li>
+                <li>@Localizer["TeammateA_Contact_MailInbox"]</li>
+                <li>@Localizer["TeammateA_Contact_TwitterAccount"]</li>
             </ul>
         </div>
     </div>
     @* Example Teammate B *@
     <div class="columns" style="margin-top:2rem; margin-bottom:2rem;">
-        @* Teamate Description *@
+        @* Teammate Description *@
         <div class="column is-two-thirds">
             @* Teammate name & position *@
-            <h2 class="title montserrat_100 is-4">Megan Bailey</h2>
-            <h3 class="subtitle montserrat_400 is-6">NStart CFO</h3>
+            <h2 class="title montserrat_100 is-4">@Localizer["TeammateB_Name"]</h2>
+            <h3 class="subtitle montserrat_400 is-6">@Localizer["TeammateB_Position"]</h3>
             <hr />
             @* Short Teammate description*@
-            <p class="opensans_400 has-text-justified">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </p>
+            <p class="opensans_400 has-text-justified">@Localizer["TeammateB_Description"]</p>
             <br />
             @* Teammate various contact information ways *@
-            <h4>Contact information</h4>
+            <h4>@Localizer["ContactHeader"]</h4>
             <ul class="opensans_400">
-                <li>Office Hours: 6AM - 4PM (Every Day).</li>
-                <li>Public Mail Inbox: <a href="">fakeuser@@domain.com</a>.</li>
-                <li>Twitter Account: <a href="">@@fakeuser</a>.</li>
+                <li>@Localizer["TeammateB_Contact_OfficeHours"]</li>
+                <li>@Localizer["TeammateB_Contact_MailInbox"]</li>
+                <li>@Localizer["TeammateB_TwitterAccount"]</li>
             </ul>
         </div>
-        @* Teamate Image *@
+        @* Teammate Image *@
         <div class="column is-one-third">
             <figure class="image is-4by3">
-                <img src="~/assets/pages/landing-hero.png" title="Megan Bailey's picture" alt="Megan Bailey's picture" />
+                <img src="~/assets/pages/landing-hero.png" title="@Localizer["TeammateB_Picture_Title"]" alt="@Localizer["TeammateB_Picture_Alt"]" />
             </figure>
         </div>
     </div>

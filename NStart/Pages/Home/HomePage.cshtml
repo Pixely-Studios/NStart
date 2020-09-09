@@ -1,54 +1,35 @@
 ﻿@page "/"
+@inject IViewLocalizer Localizer 
 @model NStart.Pages.Home.HomePageModel
 @{
-    ViewData["Title"] = "Our Studio";
+    ViewData["Title"] = Localizer["PageTitle"];
 }
 
 @* Main hero pane *@
 <section class="hero background-img is-large" style="background-color: rgb(110, 0, 110)">
     <div class="hero-body" style="backdrop-filter: blur(5px)">
         <div class="container has-text-centered">
-            <h1 class="title montserrat_100 has-text-white is-size-1 has-text-weight-bold">NStart</h1>
-            <h2 class="montserrat_400 has-text-light is-size-4">A easier way to tell the world about your videogames studio</h2>
+            <h1 class="title montserrat_100 has-text-white is-size-1 has-text-weight-bold">@Localizer["StudioName"]</h1>
+            <h2 class="montserrat_400 has-text-light is-size-4">@Localizer["StudioSlogan"]</h2>
         </div>
     </div>
 </section>
 @* Who we are pane *@
-<section class="hero is-large">
+<section class="hero is-medium">
     <div class="hero-body">
         <div class="container">
             <div class="has-text-centered">
-                <h1 class="title montserrat_100 has-text-black has-text-weight-normal is-size-1">Our History</h1>
+                <h1 class="title montserrat_100 has-text-black has-text-weight-normal is-size-1">@Localizer["HistoryHeader"]</h1>
             </div>
             <div class="opensans_400 has-text-justified" style="margin-top: 1rem;">
-                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">Start of the Adventure</h5>
-                <p style="margin-bottom: 1rem;">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
-                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">The first hit</h5>
-                <p style="margin-bottom: 1rem;">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
-                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">A struggling studio</h5>
-                <p style="margin-bottom: 1rem;">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
-                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">Our current face</h5>
-                <p style="margin-bottom: 1rem;">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
+                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">@Localizer["History_FirstStep_Header"]</h5>
+                <p style="margin-bottom: 1rem;">@Localizer["History_FirstStep_Text"]</p>
+                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">@Localizer["History_SecondStep_Header"]</h5>
+                <p style="margin-bottom: 1rem;">@Localizer["History_SecondStep_Text"]</p>
+                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">@Localizer["History_ThirdStep_Header"]</h5>
+                <p style="margin-bottom: 1rem;">@Localizer["History_ThirdStep_Text"]</p>
+                <h5 class="subtitle montserrat_400 has-text-black has-text-weight-light is-size-5">@Localizer["History_ForthStep_Header"]</h5>
+                <p style="margin-bottom: 1rem;">@Localizer["History_ForthStep_Text"]</p>
             </div>
         </div>
     </div>

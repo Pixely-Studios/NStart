@@ -1,12 +1,13 @@
 ﻿@page "/media"
+@inject IViewLocalizer Localizer
 @model NStart.Pages.Home.MediaPageModel
 @{
-    ViewData["Title"] = "Featured Multimedia";
+    ViewData["Title"] = Localizer["PageTitle"];
 }
 
 @* Pictures Header Text *@
 <div class="header-with-margins has-text-centered">
-    <h1 class="title montserrat_100 has-text-black is-2">Featured Pictures</h1>
+    <h1 class="title montserrat_100 has-text-black is-2">@Localizer["FeaturedPictures_Header"]</h1>
 </div>
 @* Photos Container *@
 <div class="container">
@@ -15,7 +16,7 @@
 
 @* Videos Header Text *@
 <div class="header-with-margins has-text-centered">
-    <h1 class="title montserrat_100 has-text-black is-2">Featured Videos</h1>
+    <h1 class="title montserrat_100 has-text-black is-2">@Localizer["FeaturedVideos_Header"]</h1>
 </div>
 @* Videos Container *@
 <div class="container">
