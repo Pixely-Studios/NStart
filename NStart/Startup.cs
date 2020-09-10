@@ -11,7 +11,7 @@ using NStart.Extensions;
 namespace NStart
 {
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1052:Static holder types should be Static or NotInheritable", Justification = "This cannot be null. The program.cs file will fail to start up the system.")]
-	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "RCS1102:Make class static.", Justification = "This cannot be null. The program.cs file will fail to start up the system.")]
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "RCS1102:Make class static.", Justification = "This cannot be null. The program.cs file will fail to start up the system")]
 	public class Startup
 	{
 		/// <summary>
