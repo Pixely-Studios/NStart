@@ -117,67 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContactHeader" xml:space="preserve">
-    <value>Contact Information</value>
+  <data name="HistoryHeader" xml:space="preserve">
+    <value>Unsere Geschichte</value>
   </data>
-  <data name="PageHeader" xml:space="preserve">
-    <value>Meet our team</value>
+  <data name="History_FirstStep_Header" xml:space="preserve">
+    <value>Start des Abenteuers</value>
+  </data>
+  <data name="History_FirstStep_Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    &lt;br /&gt;
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</value>
+  </data>
+  <data name="History_ForthStep_Header" xml:space="preserve">
+    <value>Unser aktuelles Gesicht</value>
+  </data>
+  <data name="History_ForthStep_Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</value>
+  </data>
+  <data name="History_SecondStep_Header" xml:space="preserve">
+    <value>Der erste Hit</value>
+  </data>
+  <data name="History_SecondStep_Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</value>
+  </data>
+  <data name="History_ThirdStep_Header" xml:space="preserve">
+    <value>Ein mühsame Studio</value>
+  </data>
+  <data name="History_ThirdStep_Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    &lt;br /&gt;
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>Our Team</value>
+    <value>Unser Studio</value>
   </data>
-  <data name="TeammateA_Contact_MailInbox" xml:space="preserve">
-    <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
+  <data name="StudioName" xml:space="preserve">
+    <value>NStart</value>
   </data>
-  <data name="TeammateA_Contact_OfficeHours" xml:space="preserve">
-    <value>Office Hours: 6AM - 4PM (Every Day).</value>
-  </data>
-  <data name="TeammateA_Contact_TwitterAccount" xml:space="preserve">
-    <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
-  </data>
-  <data name="TeammateA_Description" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
-  </data>
-  <data name="TeammateA_Name" xml:space="preserve">
-    <value>Patrick Walker</value>
-  </data>
-  <data name="TeammateA_Picture_Alt" xml:space="preserve">
-    <value>Patrick Walker's picture</value>
-  </data>
-  <data name="TeammateA_Picture_Title" xml:space="preserve">
-    <value>Patrick Walker's picture</value>
-  </data>
-  <data name="TeammateA_Position" xml:space="preserve">
-    <value>NStart CEO</value>
-  </data>
-  <data name="TeammateB_Contact_MailInbox" xml:space="preserve">
-    <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
-  </data>
-  <data name="TeammateB_Contact_OfficeHours" xml:space="preserve">
-    <value>Office Hours: 10AM - 2PM (Monday to Friday).</value>
-  </data>
-  <data name="TeammateB_Description" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
-  </data>
-  <data name="TeammateB_Name" xml:space="preserve">
-    <value>Megan Bailey</value>
-  </data>
-  <data name="TeammateB_Picture_Alt" xml:space="preserve">
-    <value>Megan Bailey's picture</value>
-  </data>
-  <data name="TeammateB_Picture_Title" xml:space="preserve">
-    <value>Megan Bailey's picture</value>
-  </data>
-  <data name="TeammateB_Position" xml:space="preserve">
-    <value>NStart CFO</value>
-  </data>
-  <data name="TeammateB_TwitterAccount" xml:space="preserve">
-    <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
+  <data name="StudioSlogan" xml:space="preserve">
+    <value>Eine einfachere Art, der Welt über Ihr Videospiel-Studio zu erzählen</value>
   </data>
   <data name="TwitterDescription" xml:space="preserve">
-    <value>Our current full-time team members and some of our most frequent contractors and outside developers.</value>
+    <value>Ein einfaches NStart-Projekt</value>
   </data>
   <data name="TwitterImage" xml:space="preserve">
     <value />

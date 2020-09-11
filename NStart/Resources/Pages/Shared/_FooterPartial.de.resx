@@ -117,72 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContactHeader" xml:space="preserve">
-    <value>Contact Information</value>
+  <data name="NstartCredits" xml:space="preserve">
+    <value>NStart, the Open Source launch page for Videogames Studios. Originally developed by &lt;a href="https://github.com/OnlyOnePro"&gt;OnlyOnePro&lt;/a&gt;, now maintained and updated by &lt;a href="https://github.com/PixelyStudios"&gt;Pixely Studios&lt;/a&gt;.</value>
   </data>
-  <data name="PageHeader" xml:space="preserve">
-    <value>Meet our team</value>
-  </data>
-  <data name="PageTitle" xml:space="preserve">
-    <value>Our Team</value>
-  </data>
-  <data name="TeammateA_Contact_MailInbox" xml:space="preserve">
-    <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
-  </data>
-  <data name="TeammateA_Contact_OfficeHours" xml:space="preserve">
-    <value>Office Hours: 6AM - 4PM (Every Day).</value>
-  </data>
-  <data name="TeammateA_Contact_TwitterAccount" xml:space="preserve">
-    <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
-  </data>
-  <data name="TeammateA_Description" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
-  </data>
-  <data name="TeammateA_Name" xml:space="preserve">
-    <value>Patrick Walker</value>
-  </data>
-  <data name="TeammateA_Picture_Alt" xml:space="preserve">
-    <value>Patrick Walker's picture</value>
-  </data>
-  <data name="TeammateA_Picture_Title" xml:space="preserve">
-    <value>Patrick Walker's picture</value>
-  </data>
-  <data name="TeammateA_Position" xml:space="preserve">
-    <value>NStart CEO</value>
-  </data>
-  <data name="TeammateB_Contact_MailInbox" xml:space="preserve">
-    <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
-  </data>
-  <data name="TeammateB_Contact_OfficeHours" xml:space="preserve">
-    <value>Office Hours: 10AM - 2PM (Monday to Friday).</value>
-  </data>
-  <data name="TeammateB_Description" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</value>
-  </data>
-  <data name="TeammateB_Name" xml:space="preserve">
-    <value>Megan Bailey</value>
-  </data>
-  <data name="TeammateB_Picture_Alt" xml:space="preserve">
-    <value>Megan Bailey's picture</value>
-  </data>
-  <data name="TeammateB_Picture_Title" xml:space="preserve">
-    <value>Megan Bailey's picture</value>
-  </data>
-  <data name="TeammateB_Position" xml:space="preserve">
-    <value>NStart CFO</value>
-  </data>
-  <data name="TeammateB_TwitterAccount" xml:space="preserve">
-    <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
-  </data>
-  <data name="TwitterDescription" xml:space="preserve">
-    <value>Our current full-time team members and some of our most frequent contractors and outside developers.</value>
-  </data>
-  <data name="TwitterImage" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TwitterImageAlt" xml:space="preserve">
-    <value />
+  <data name="NStartLicence" xml:space="preserve">
+    <value>The source code is licensed under &lt;a href="https://opensource.org/licences/mit-licence.php"&gt;MIT&lt;/a&gt;. Regular updates of this platform are published on the &lt;a href="https://github.com/PixelyStudios/NStart"&gt;Official Github.com Repository&lt;/a&gt;.</value>
   </data>
 </root>

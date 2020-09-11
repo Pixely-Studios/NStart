@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ContactHeader" xml:space="preserve">
-    <value>Contact Information</value>
+    <value>Kontaktinformationen</value>
   </data>
   <data name="PageHeader" xml:space="preserve">
-    <value>Meet our team</value>
+    <value>Lernen Sie unser Team kennen</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>Our Team</value>
+    <value>Unser Team</value>
   </data>
   <data name="TeammateA_Contact_MailInbox" xml:space="preserve">
-    <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
+    <value>Posteingang öffentlicher Nachrichten: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
   </data>
   <data name="TeammateA_Contact_OfficeHours" xml:space="preserve">
-    <value>Office Hours: 6AM - 4PM (Every Day).</value>
+    <value>Öffnungszeiten: 6.00 - 16.00 Uhr (jeden Tag).</value>
   </data>
   <data name="TeammateA_Contact_TwitterAccount" xml:space="preserve">
-    <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
+    <value>Twitter-Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
   </data>
   <data name="TeammateA_Description" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
@@ -143,19 +143,19 @@
     <value>Patrick Walker</value>
   </data>
   <data name="TeammateA_Picture_Alt" xml:space="preserve">
-    <value>Patrick Walker's picture</value>
+    <value>Patrick Walker es Bild</value>
   </data>
   <data name="TeammateA_Picture_Title" xml:space="preserve">
-    <value>Patrick Walker's picture</value>
+    <value>Patrick Walker es Bild</value>
   </data>
   <data name="TeammateA_Position" xml:space="preserve">
     <value>NStart CEO</value>
   </data>
   <data name="TeammateB_Contact_MailInbox" xml:space="preserve">
-    <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
+    <value>Posteingang öffentlicher Nachrichten: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>
   </data>
   <data name="TeammateB_Contact_OfficeHours" xml:space="preserve">
-    <value>Office Hours: 10AM - 2PM (Monday to Friday).</value>
+    <value>Öffnungszeiten: 10.00 - 14.00 Uhr (Montag bis Freitag).</value>
   </data>
   <data name="TeammateB_Description" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
@@ -165,19 +165,19 @@
     <value>Megan Bailey</value>
   </data>
   <data name="TeammateB_Picture_Alt" xml:space="preserve">
-    <value>Megan Bailey's picture</value>
+    <value>Megan Baileys Bild</value>
   </data>
   <data name="TeammateB_Picture_Title" xml:space="preserve">
-    <value>Megan Bailey's picture</value>
+    <value>Megan Baileys Bild</value>
   </data>
   <data name="TeammateB_Position" xml:space="preserve">
     <value>NStart CFO</value>
   </data>
   <data name="TeammateB_TwitterAccount" xml:space="preserve">
-    <value>Twitter Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
+    <value>Twitter-Account: &lt;a href=""&gt;@fakeuser&lt;/a&gt;.</value>
   </data>
   <data name="TwitterDescription" xml:space="preserve">
-    <value>Our current full-time team members and some of our most frequent contractors and outside developers.</value>
+    <value>Unsere aktuellen Vollzeit-Teammitglieder und einige unserer häufigsten Auftragnehmer und externen Entwickler.</value>
   </data>
   <data name="TwitterImage" xml:space="preserve">
     <value />
