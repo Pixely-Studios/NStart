@@ -76,7 +76,12 @@ namespace NStart
 			// Adds Routing to this application's pipeline
 			app.UseRouting();
 			// Adds the support for Endpoints (Like SignalR hubs) and maps all the Razor Pages in the application
-			app.UseEndpoints(endpoints => endpoints.MapRazorPages());
+			app.UseEndpoints(endpoints =>
+			{
+				endpoints.MapRazorPages();
+
+				endpoints.MapControllers();
+			});
 		}
 	}
 }
