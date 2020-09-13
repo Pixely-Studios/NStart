@@ -2,6 +2,8 @@
 #### A drop-in solution for landing pages of Videogame companies
 
 ![.NET Core Build Only](https://github.com/OnlyOnePro/NStart/workflows/.NET%20Core%20Build%20Only/badge.svg)
+![.NET Core Test Only](https://github.com/OnlyOnePro/NStart/workflows/.NET%20Core%20Test%20Only/badge.svg)
+
 ---
 
 ## What is this project?
