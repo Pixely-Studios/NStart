@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace NStart.Pages.Home
+namespace NStart.Pages.Company
 {
 	public class AwardsPageModel : PageModel
 	{
