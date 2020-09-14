@@ -22,6 +22,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\assets\pages\" />
     <Folder Include="wwwroot\fonts\" />
+    <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
