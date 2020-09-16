@@ -1,6 +1,6 @@
 {
   "name": "nstart",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple drop-in solution to landing pages for Videogame Studios",
   "private": false,
   "dependencies": {
@@ -8,8 +8,7 @@
     "bulma": "latest",
     "bulma-badge": "latest",
     "bulma-tagsinput": "latest",
-    "bulma-timeline": "latest",
-    "jquery": "latest"
+    "bulma-timeline": "latest"
   },
   "devDependencies": {
     "grunt": "latest",
