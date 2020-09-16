@@ -1,13 +1,13 @@
 {
   "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
     "appInsights1": {
       "resourceId": null,
       "type": "appInsights.sdk",
       "connectionId": null,
       "secretStore": null
-    },
-    "secrets1": {
-      "type": "secrets.user"
     }
   }
 }

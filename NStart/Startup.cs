@@ -27,7 +27,7 @@ namespace NStart
 
 			// Add Routing
 			services.AddRouting();
-			// Add Application Insights for advanced telemetry
+			// Add Application Insights Local Telemetry
 			services.AddApplicationInsightsTelemetry();
 			// Add our custom localization settings
 			services.AddCustomLocalization();
