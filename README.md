@@ -3,6 +3,7 @@
 
 ![.NET Core Build Only](https://github.com/OnlyOnePro/NStart/workflows/.NET%20Core%20Build%20Only/badge.svg)
 ![.NET Core Test Only](https://github.com/OnlyOnePro/NStart/workflows/.NET%20Core%20Test%20Only/badge.svg)
+![CodeQL](https://github.com/Pixely-Studios/NStart/workflows/CodeQL/badge.svg)
 
 ---
 
