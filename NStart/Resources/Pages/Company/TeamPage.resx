@@ -120,11 +120,20 @@
   <data name="ContactHeader" xml:space="preserve">
     <value>Contact Information</value>
   </data>
+  <data name="PageDescription" xml:space="preserve">
+    <value>Our current full-time team members and some of our most frequent contractors and outside developers.</value>
+  </data>
   <data name="PageHeader" xml:space="preserve">
     <value>Meet our team</value>
   </data>
+  <data name="PageRoute" xml:space="preserve">
+    <value>/Company/TeamPage</value>
+  </data>
   <data name="PageTitle" xml:space="preserve">
     <value>Our Team</value>
+  </data>
+  <data name="SyndicationId" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="TeammateA_Contact_MailInbox" xml:space="preserve">
     <value>Public Mail Inbox: &lt;a href=""&gt;fakeuser@domain.com&lt;/a&gt;.</value>

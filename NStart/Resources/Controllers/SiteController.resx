@@ -117,58 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContactHeader" xml:space="preserve">
-    <value>Contact Information</value>
+  <data name="FeedCopyrightFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+    <comment>1/9/2021 - NStart Default Instance</comment>
   </data>
-  <data name="DigitalBusinessContact" xml:space="preserve">
-    <value>Press/Business Contact: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;company-business-inbox@domain.com&lt;/a&gt;&lt;/span&gt;</value>
+  <data name="FeedCopyrightMessage" xml:space="preserve">
+    <value>NStart Default Instance</value>
   </data>
-  <data name="DigitalContactHeader" xml:space="preserve">
-    <value>Digital Contacts</value>
+  <data name="FeedDescription" xml:space="preserve">
+    <value>The default XML Sitemap feed for a NStart Instance</value>
   </data>
-  <data name="DigitalFacebookContact" xml:space="preserve">
-    <value>Facebook Account: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;facebook.com/nstart&lt;/a&gt;&lt;/span&gt;</value>
+  <data name="FeedEncoding" xml:space="preserve">
+    <value>application/rss+xml; charset=utf-8</value>
   </data>
-  <data name="DigitalSupportContact" xml:space="preserve">
-    <value>Support Contact: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;support@domain.com&lt;/a&gt;&lt;/span&gt;</value>
+  <data name="FeedId" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="DigitalTwitterContact" xml:space="preserve">
-    <value>Twitter Account: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;@nstart&lt;/a&gt;&lt;/span&gt;</value>
+  <data name="FeedName" xml:space="preserve">
+    <value>NStart XML Feed</value>
   </data>
-  <data name="DigitalUsersContact" xml:space="preserve">
-    <value>Users Contact: &lt;span class="opensans_400"&gt;&lt;a href=""&gt;users-inbox@domain.com&lt;/a&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="PageDescription" xml:space="preserve">
-    <value>All the means of contacts (digital or IRL) that we are currently using.</value>
-  </data>
-  <data name="PageRoute" xml:space="preserve">
-    <value>/Home/ContactPage</value>
-  </data>
-  <data name="PageTitle" xml:space="preserve">
-    <value>Contact Information</value>
-  </data>
-  <data name="PhysicalAddress" xml:space="preserve">
-    <value>Sunset Drive 123. Vice City, Continental Country</value>
-  </data>
-  <data name="PhysicalContactHeader" xml:space="preserve">
-    <value>Physical Contacts</value>
-  </data>
-  <data name="PhysicalPhone" xml:space="preserve">
-    <value>Telephone: &lt;span class="opensans_400"&gt; +0 (123)-456-7890&lt;/span&gt;</value>
-  </data>
-  <data name="PhysicalPostOfficeBox" xml:space="preserve">
-    <value>P.O. Box: &lt;span class="opensans_400"&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="SyndicationId" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TwitterDescription" xml:space="preserve">
-    <value>All the means of contacts (digital or IRL) that we are currently using.</value>
-  </data>
-  <data name="TwitterImage" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TwitterImageAlt" xml:space="preserve">
-    <value />
+  <data name="FeedStartPage" xml:space="preserve">
+    <value>https://nstart.com</value>
   </data>
 </root>

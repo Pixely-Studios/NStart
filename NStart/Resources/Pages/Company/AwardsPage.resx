@@ -155,8 +155,17 @@
   <data name="FeaturedArticlesHeader" xml:space="preserve">
     <value>Featured news Articles</value>
   </data>
+  <data name="PageDescription" xml:space="preserve">
+    <value>A list of all the awards and recognitions that our studo has won.</value>
+  </data>
+  <data name="PageRoute" xml:space="preserve">
+    <value>/Company/AwardsPage</value>
+  </data>
   <data name="PageTitle" xml:space="preserve">
     <value>Awards &amp; Recognitions</value>
+  </data>
+  <data name="SyndicationId" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="TwitterDescription" xml:space="preserve">
     <value>A list of all the awards and recognitions that our studo has won.</value>

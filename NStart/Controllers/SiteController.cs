@@ -23,23 +23,23 @@ namespace NStart.Controllers
 			// Create a empty default container for our Syndicated Feed Items
 			var items = new List<SyndicationItem>();
 			// Test all the Razor Pages from contact & featured media
-			var contactUrl = Url.Page("/Home/ContactPage", null, null, Request.Scheme);
-			var mediaUrl = Url.Page("/Home/MediaPage", null, null, Request.Scheme);
+			var contactUrl = Url.Page(Resources.Pages.Home.ContactPage.PageRoute, null, null, Request.Scheme);
+			var mediaUrl = Url.Page(Resources.Pages.Home.MediaPage.PageRoute, null, null, Request.Scheme);
 			// Add the pages to our Syndicated Feed Items
-			items.Add(new SyndicationItem("Contact Page", "NStart's default contact page", new Uri(contactUrl), "2", DateTime.Now));
-			items.Add(new SyndicationItem("Media Page", "NStart's default selected media page", new Uri(mediaUrl), "3", DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Home.ContactPage.PageTitle, Resources.Pages.Home.ContactPage.PageDescription, new Uri(contactUrl), Resources.Pages.Home.ContactPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Home.MediaPage.PageTitle, Resources.Pages.Home.MediaPage.PageDescription, new Uri(mediaUrl), Resources.Pages.Home.MediaPage.SyndicationId, DateTime.Now));
 			// Test all the Razor Pages for company
-			var awardsUrl = Url.Page("/Company/AwardsPage", null, null, Request.Scheme);
-			var projectsUrl = Url.Page("/Company/ProjectsPage", null, null, Request.Scheme);
-			var teamsUrl = Url.Page("/Company/TeamPage", null, null, Request.Scheme);
+			var awardsUrl = Url.Page(Resources.Pages.Company.AwardsPage.PageRoute, null, null, Request.Scheme);
+			var projectsUrl = Url.Page(Resources.Pages.Company.ProjectsPage.PageRoute, null, null, Request.Scheme);
+			var teamsUrl = Url.Page(Resources.Pages.Company.TeamPage.PageRoute, null, null, Request.Scheme);
 			// Add the pages to our Syndicated Feed Items
-			items.Add(new SyndicationItem("Awards Page", "NStart's default awards page", new Uri(awardsUrl), "4", DateTime.Now));
-			items.Add(new SyndicationItem("Projects Page", "NStart's default projects page", new Uri(projectsUrl), "5", DateTime.Now));
-			items.Add(new SyndicationItem("Team Page", "NStart's default team page", new Uri(teamsUrl), "6", DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Company.AwardsPage.PageTitle, Resources.Pages.Company.AwardsPage.PageDescription, new Uri(awardsUrl), Resources.Pages.Company.AwardsPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Company.ProjectsPage.PageTitle, Resources.Pages.Company.ProjectsPage.PageDescription, new Uri(projectsUrl), Resources.Pages.Company.ProjectsPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Company.TeamPage.PageTitle, Resources.Pages.Company.TeamPage.PageDescription, new Uri(teamsUrl), Resources.Pages.Company.TeamPage.SyndicationId, DateTime.Now));
 			// Use our Internal universal Feed to generate the Sitemap File
-			var resultFeed = await CreateAtomFeed("NStart XML Feed", "The default XML Sitemap feed for a NStart Instance", new Uri("https://nstart.com"), "1", items).ConfigureAwait(false);
+			var resultFeed = await CreateAtomFeed(Resources.Controllers.SiteController.FeedName, Resources.Controllers.SiteController.FeedDescription, new Uri(Resources.Controllers.SiteController.FeedStartPage), Resources.Controllers.SiteController.FeedId, items).ConfigureAwait(false);
 			// Return the generated universal Feed
-			return File(resultFeed.ToArray(), "application/rss+xml; charset=utf-8");
+			return File(resultFeed.ToArray(), Resources.Controllers.SiteController.FeedEncoding);
 		}
 
 		/// <summary>
@@ -55,7 +55,7 @@ namespace NStart.Controllers
 		{
 			var feed = new SyndicationFeed(feedTitle, feedDescription, feedAlternativeUri, feedId, DateTime.Now)
 			{
-				Copyright = new TextSyndicationContent($"{DateTime.Now.Year} NStart Default Instance"),
+				Copyright = new TextSyndicationContent(string.Format(Resources.Controllers.SiteController.FeedCopyrightFormat, DateTime.Now, Resources.Controllers.SiteController.FeedCopyrightMessage)),
 			};
 
 			feed.Items = feedItems;

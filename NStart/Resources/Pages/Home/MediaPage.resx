@@ -123,8 +123,17 @@
   <data name="FeaturedVideos_Header" xml:space="preserve">
     <value>Featured Videos</value>
   </data>
+  <data name="PageDescription" xml:space="preserve">
+    <value>A list of featured pictures and videos of our team, curated by us.</value>
+  </data>
+  <data name="PageRoute" xml:space="preserve">
+    <value>/Home/MediaPage</value>
+  </data>
   <data name="PageTitle" xml:space="preserve">
     <value>Featured Multimedia</value>
+  </data>
+  <data name="SyndicationId" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="TwitterDescription" xml:space="preserve">
     <value>A list of featured pictures and videos of our team, curated by us.</value>
