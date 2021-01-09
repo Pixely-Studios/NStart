@@ -19,7 +19,7 @@ I didn't knew that `dopresskit()` was a "thing"... And I wasn't able to install 
 
 ## What technologies uses this project?
 
-- ASP.NET Core 3.1: Using the world's second largest technology stack, we can deliver a fast and reliable platform that will not fail you.
+- ASP.NET Core 5: Using the world's second largest technology stack, we can deliver a fast and reliable platform that will not fail you.
 - BulmaCSS: A very powerful & compact CSS framework. No JS, no bloatware and no compromises: just start creating beautiful sites.
 - Grunt: Automation with specific rulesets for this particular workflow... I didn't felt like having to do that every time I updated the project's dependences 😉
 - Razor: ASP.NET's Template engine. Powerful and highly capable of powering any dream you might think off.
