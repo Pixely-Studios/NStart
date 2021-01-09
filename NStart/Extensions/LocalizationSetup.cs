@@ -7,31 +7,31 @@ namespace NStart.Extensions
 {
 	public static class LocalizationSetup
 	{
-		// Default UI Cultures
-		internal const string DefaultCulture = "en-US";
+		// Default UI Culture
+		internal static readonly string DefaultCulture = Resources.Application.LocalizationExtension.Culture_English_US;
 		// List of supported cultures for Localization & Globalization
 		internal static readonly CultureInfo[] SupportedCultures =
 		{
 			// Deutsch
-			new CultureInfo("de"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_German),
 			// English
-			new CultureInfo("en"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_English),
 			// English - US
-			new CultureInfo("en-US"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_English_US),
 			// Español
-			new CultureInfo("es"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Spanish),
 			// Français
-			new CultureInfo("fr"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_French),
 			// Italiano
-			new CultureInfo("it"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Italian),
 			// 日本 - Japanese
-			new CultureInfo("jp"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Japanese),
 			// 한국어 - Korean
-			new CultureInfo("kr"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Korean),
 			// Português
-			new CultureInfo("pt"),
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Portugese),
 			// русский - Russian
-			new CultureInfo("ru")
+			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Russian)
 		};
 
 		/// <summary>
@@ -49,7 +49,7 @@ namespace NStart.Extensions
 				options.RequestCultureProviders.Insert(0, new AcceptLanguageHeaderRequestCultureProvider());
 			});
 			// Add localization to our Application, and the RESX files are under the Resources directory
-			services.AddLocalization(options => options.ResourcesPath = "Resources");
+			services.AddLocalization(options => options.ResourcesPath = Resources.Application.LocalizationExtension.ResourcesPath);
 		}
 	}
 }

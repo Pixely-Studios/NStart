@@ -25,6 +25,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Resources\Application\LocalizationExtension.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LocalizationExtension.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resources\Application\Startup.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -73,6 +78,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Resources\Application\LocalizationExtension.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LocalizationExtension.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Application\Startup.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Startup.Designer.cs</LastGenOutput>
