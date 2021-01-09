@@ -11,7 +11,7 @@ namespace NStart.Pages.Platform
 		public void OnGet(int code)
 		{
 			// Add to our ViewData dictionary the Error Code under a Code identifier
-			ViewData.Add("Code", code);
+			ViewData.Add(Resources.Pages.Platform.ErrorPage.ErrorCodeViewData, code);
 			// Return the page
 			Page();
 		}

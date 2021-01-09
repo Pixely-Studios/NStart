@@ -53,9 +53,18 @@ namespace NStart.Controllers
 		/// <returns>A MemoryStream conformed of a generated Sitemap Atom Feed</returns>
 		internal static async Task<MemoryStream> CreateAtomFeed(string feedTitle, string feedDescription, Uri feedAlternativeUri, string feedId, List<SyndicationItem> feedItems)
 		{
-			var feed = new SyndicationFeed(feedTitle, feedDescription, feedAlternativeUri, feedId, DateTime.Now)
+			// Create the Cop
+			TextSyndicationContent titleContent = new(feedTitle);
+			TextSyndicationContent descriptionContent = new(feedDescription);
+			TextSyndicationContent copyrightContent = new(string.Format(Resources.Controllers.SiteController.FeedCopyrightFormat, DateTime.Now, Resources.Controllers.SiteController.FeedCopyrightMessage));
+			SyndicationFeed feed = new()
 			{
-				Copyright = new TextSyndicationContent(string.Format(Resources.Controllers.SiteController.FeedCopyrightFormat, DateTime.Now, Resources.Controllers.SiteController.FeedCopyrightMessage)),
+				Id = feedId,
+				Title = titleContent,
+				Description = descriptionContent,
+				BaseUri = feedAlternativeUri,
+				Copyright = copyrightContent,
+				LastUpdatedTime = DateTime.Now
 			};
 
 			feed.Items = feedItems;

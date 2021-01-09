@@ -117,19 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ErrorCodeViewData" xml:space="preserve">
-    <value>Code</value>
-  </data>
-  <data name="ErrorFormat" xml:space="preserve">
-    <value>Error {0}</value>
-  </data>
-  <data name="TwitterDescription" xml:space="preserve">
-    <value>A error page from a NStart system.</value>
-  </data>
-  <data name="TwitterImage" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TwitterImageAlt" xml:space="preserve">
-    <value />
+  <data name="ErrorHandlerMiddlewareFormat" xml:space="preserve">
+    <value>/error/{0}</value>
   </data>
 </root>

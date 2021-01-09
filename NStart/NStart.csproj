@@ -25,6 +25,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Resources\Application\Startup.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Startup.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resources\Controllers\SiteController.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -60,9 +65,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>MediaPage.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resources\Pages\Platform\ErrorPage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ErrorPage.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Resources\Application\Startup.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Startup.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Controllers\SiteController.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SiteController.Designer.cs</LastGenOutput>
@@ -90,6 +104,10 @@
     <EmbeddedResource Update="Resources\Pages\Home\MediaPage.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>MediaPage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Pages\Platform\ErrorPage.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ErrorPage.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

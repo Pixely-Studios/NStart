@@ -10,7 +10,6 @@ using NStart.Extensions;
 
 namespace NStart
 {
-	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1052:Static holder types should be Static or NotInheritable", Justification = "This cannot be null. The program.cs file will fail to start up the system.")]
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "RCS1102:Make class static.", Justification = "This cannot be null. The program.cs file will fail to start up the system")]
 	public class Startup
 	{
@@ -62,7 +61,7 @@ namespace NStart
 			else
 			{
 				// Use a custom Exception handler that responds on the specified route
-				app.UseExceptionHandler(configure => configure.UseStatusCodePagesWithReExecute("/error/{0}"));
+				app.UseExceptionHandler(configure => configure.UseStatusCodePagesWithReExecute(Resources.Application.Startup.ErrorHandlerMiddlewareFormat));
 				// Use HSTS for Strict Transport Security Headers
 				app.UseHsts();
 			}
