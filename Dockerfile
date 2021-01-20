@@ -19,4 +19,5 @@ RUN dotnet publish "NStart.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "NStart.dll"]
+#ENTRYPOINT ["dotnet", "NStart.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet NStart.dll

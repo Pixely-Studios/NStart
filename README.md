@@ -17,6 +17,8 @@ to make a small and Open Source project that **anyone** can use without any comp
 
 I didn't knew that `dopresskit()` was a "thing"... And I wasn't able to install it on my development server, so I deemed that project dead and decided to continue open sourcing this.
 
+*A public instance is running on [Heroku](https://nstart.herokuapp.com/our-team) using the same Dockerfile and Herkou Containers.*
+
 ## What technologies uses this project?
 
 - ASP.NET Core 5: Using the world's second largest technology stack, we can deliver a fast and reliable platform that will not fail you.
