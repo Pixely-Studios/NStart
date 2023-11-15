@@ -8,30 +8,30 @@ namespace NStart.Extensions
 	public static class LocalizationSetup
 	{
 		// Default UI Culture
-		internal static readonly string DefaultCulture = Resources.Application.LocalizationExtension.Culture_English_US;
+        private static readonly string DefaultCulture = Resources.Application.LocalizationExtension.Culture_English_US;
 		// List of supported cultures for Localization & Globalization
-		internal static readonly CultureInfo[] SupportedCultures =
+        private static readonly CultureInfo[] SupportedCultures =
 		{
 			// Deutsch
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_German),
+			new(Resources.Application.LocalizationExtension.Culture_German),
 			// English
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_English),
+			new(Resources.Application.LocalizationExtension.Culture_English),
 			// English - US
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_English_US),
+			new(Resources.Application.LocalizationExtension.Culture_English_US),
 			// Español
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Spanish),
+			new(Resources.Application.LocalizationExtension.Culture_Spanish),
 			// Français
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_French),
+			new(Resources.Application.LocalizationExtension.Culture_French),
 			// Italiano
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Italian),
+			new(Resources.Application.LocalizationExtension.Culture_Italian),
 			// 日本 - Japanese
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Japanese),
+			new(Resources.Application.LocalizationExtension.Culture_Japanese),
 			// 한국어 - Korean
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Korean),
+			new(Resources.Application.LocalizationExtension.Culture_Korean),
 			// Português
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Portugese),
+			new(Resources.Application.LocalizationExtension.Culture_Portugese),
 			// русский - Russian
-			new CultureInfo(Resources.Application.LocalizationExtension.Culture_Russian)
+			new(Resources.Application.LocalizationExtension.Culture_Russian)
 		};
 
 		/// <summary>

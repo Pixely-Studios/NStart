@@ -9,6 +9,7 @@ namespace NStart.Pages.Company
 		/// </summary>
 		public static void OnGet()
 		{
+            // This method is empty as an example.
 		}
 	}
 }

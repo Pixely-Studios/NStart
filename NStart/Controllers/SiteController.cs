@@ -21,23 +21,25 @@ namespace NStart.Controllers
 		public async Task<IActionResult> GenerateSitemapAsync()
 		{
 			// Create a empty default container for our Syndicated Feed Items
-			var items = new List<SyndicationItem>();
+			List<SyndicationItem> items = new();
 			// Test all the Razor Pages from contact & featured media
-			var contactUrl = Url.Page(Resources.Pages.Home.ContactPage.PageRoute, null, null, Request.Scheme);
-			var mediaUrl = Url.Page(Resources.Pages.Home.MediaPage.PageRoute, null, null, Request.Scheme);
+			string contactUrl = Url.Page(Resources.Pages.Home.ContactPage.PageRoute, null, null, Request.Scheme);
+			string mediaUrl = Url.Page(Resources.Pages.Home.MediaPage.PageRoute, null, null, Request.Scheme);
 			// Add the pages to our Syndicated Feed Items
-			items.Add(new SyndicationItem(Resources.Pages.Home.ContactPage.PageTitle, Resources.Pages.Home.ContactPage.PageDescription, new Uri(contactUrl), Resources.Pages.Home.ContactPage.SyndicationId, DateTime.Now));
-			items.Add(new SyndicationItem(Resources.Pages.Home.MediaPage.PageTitle, Resources.Pages.Home.MediaPage.PageDescription, new Uri(mediaUrl), Resources.Pages.Home.MediaPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Home.ContactPage.PageTitle, Resources.Pages.Home.ContactPage.PageDescription, new Uri(contactUrl!), Resources.Pages.Home.ContactPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Home.MediaPage.PageTitle, Resources.Pages.Home.MediaPage.PageDescription, new Uri(mediaUrl!), Resources.Pages.Home.MediaPage.SyndicationId, DateTime.Now));
 			// Test all the Razor Pages for company
-			var awardsUrl = Url.Page(Resources.Pages.Company.AwardsPage.PageRoute, null, null, Request.Scheme);
-			var projectsUrl = Url.Page(Resources.Pages.Company.ProjectsPage.PageRoute, null, null, Request.Scheme);
-			var teamsUrl = Url.Page(Resources.Pages.Company.TeamPage.PageRoute, null, null, Request.Scheme);
+			string awardsUrl = Url.Page(Resources.Pages.Company.AwardsPage.PageRoute, null, null, Request.Scheme);
+			string projectsUrl = Url.Page(Resources.Pages.Company.ProjectsPage.PageRoute, null, null, Request.Scheme);
+			string teamsUrl = Url.Page(Resources.Pages.Company.TeamPage.PageRoute, null, null, Request.Scheme);
 			// Add the pages to our Syndicated Feed Items
-			items.Add(new SyndicationItem(Resources.Pages.Company.AwardsPage.PageTitle, Resources.Pages.Company.AwardsPage.PageDescription, new Uri(awardsUrl), Resources.Pages.Company.AwardsPage.SyndicationId, DateTime.Now));
-			items.Add(new SyndicationItem(Resources.Pages.Company.ProjectsPage.PageTitle, Resources.Pages.Company.ProjectsPage.PageDescription, new Uri(projectsUrl), Resources.Pages.Company.ProjectsPage.SyndicationId, DateTime.Now));
-			items.Add(new SyndicationItem(Resources.Pages.Company.TeamPage.PageTitle, Resources.Pages.Company.TeamPage.PageDescription, new Uri(teamsUrl), Resources.Pages.Company.TeamPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Company.AwardsPage.PageTitle, Resources.Pages.Company.AwardsPage.PageDescription, new Uri(awardsUrl!), Resources.Pages.Company.AwardsPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Company.ProjectsPage.PageTitle, Resources.Pages.Company.ProjectsPage.PageDescription, new Uri(projectsUrl!), Resources.Pages.Company.ProjectsPage.SyndicationId, DateTime.Now));
+			items.Add(new SyndicationItem(Resources.Pages.Company.TeamPage.PageTitle, Resources.Pages.Company.TeamPage.PageDescription, new Uri(teamsUrl!), Resources.Pages.Company.TeamPage.SyndicationId, DateTime.Now));
+
 			// Use our Internal universal Feed to generate the Sitemap File
-			var resultFeed = await CreateAtomFeed(Resources.Controllers.SiteController.FeedName, Resources.Controllers.SiteController.FeedDescription, new Uri(Resources.Controllers.SiteController.FeedStartPage), Resources.Controllers.SiteController.FeedId, items).ConfigureAwait(false);
+			MemoryStream resultFeed = await CreateAtomFeed(Resources.Controllers.SiteController.FeedName, Resources.Controllers.SiteController.FeedDescription, new Uri(Resources.Controllers.SiteController.FeedStartPage), Resources.Controllers.SiteController.FeedId, items).ConfigureAwait(false);
+
 			// Return the generated universal Feed
 			return File(resultFeed.ToArray(), Resources.Controllers.SiteController.FeedEncoding);
 		}
@@ -51,12 +53,13 @@ namespace NStart.Controllers
 		/// <param name="feedId">ID of the feed</param>
 		/// <param name="feedItems">Items contained in the feed to be syndicated</param>
 		/// <returns>A MemoryStream conformed of a generated Sitemap Atom Feed</returns>
-		internal static async Task<MemoryStream> CreateAtomFeed(string feedTitle, string feedDescription, Uri feedAlternativeUri, string feedId, List<SyndicationItem> feedItems)
+        private static async Task<MemoryStream> CreateAtomFeed(string feedTitle, string feedDescription, Uri feedAlternativeUri, string feedId, List<SyndicationItem> feedItems)
 		{
 			// Create the Cop
 			TextSyndicationContent titleContent = new(feedTitle);
 			TextSyndicationContent descriptionContent = new(feedDescription);
 			TextSyndicationContent copyrightContent = new(string.Format(Resources.Controllers.SiteController.FeedCopyrightFormat, DateTime.Now, Resources.Controllers.SiteController.FeedCopyrightMessage));
+		
 			SyndicationFeed feed = new()
 			{
 				Id = feedId,
@@ -64,12 +67,11 @@ namespace NStart.Controllers
 				Description = descriptionContent,
 				BaseUri = feedAlternativeUri,
 				Copyright = copyrightContent,
-				LastUpdatedTime = DateTime.Now
+				LastUpdatedTime = DateTime.Now,
+				Items = feedItems
 			};
 
-			feed.Items = feedItems;
-
-			var settings = new XmlWriterSettings
+			XmlWriterSettings settings = new() 
 			{
 				Encoding = Encoding.UTF8,
 				NewLineHandling = NewLineHandling.Entitize,
@@ -78,11 +80,10 @@ namespace NStart.Controllers
 				Async = true
 			};
 
-			using var stream = new MemoryStream();
+			MemoryStream stream = new();
+			await using XmlWriter xmlWriter = XmlWriter.Create(stream, settings);
 
-			using var xmlWriter = XmlWriter.Create(stream, settings);
-
-			var rssFormatter = new Rss20FeedFormatter(feed, false);
+			Rss20FeedFormatter rssFormatter = new(feed, false);
 			rssFormatter.WriteTo(xmlWriter);
 			await xmlWriter.FlushAsync().ConfigureAwait(false);
 
