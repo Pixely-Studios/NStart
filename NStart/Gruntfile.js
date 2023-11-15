@@ -1,4 +1,6 @@
 ﻿/// <binding AfterBuild='externals-update' />
+/* eslint-disable no-undef */
+
 /* Ease of access routes */
 var nodeRoot = './node_modules/';
 var targetPath = './wwwroot/lib/';
