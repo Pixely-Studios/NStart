@@ -11,6 +11,7 @@
     "bulma-timeline": "latest"
   },
   "devDependencies": {
+    "eslint": "^8.53.0",
     "grunt": "latest",
     "grunt-contrib-clean": "latest",
     "grunt-contrib-concat": "latest",
