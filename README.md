@@ -7,6 +7,16 @@
 
 ---
 
+## Quick word
+
+Wow, didn't notice all the attention with the repo... I'm now ashamed of myself for putting something out there and not updating it :V, better late than never I guess 😅.
+
+I performed a heavy maintenance to the project to update it to .NET 8 and put it up to speed. I forgot to add some stuff in the startup guide (like run grunt to set up your lib folder for local development), and 
+thanks to [Heroku clossing their free tiers](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq) this project is not longer hosted on a public website. I plan to change this up by hosting on
+Azure and will let you guys know when this is up by removing this part and updating the Readme file. Also will try to set up a Wiki explaining a little bit more what this project does and how can it suit you.
+
+---
+
 ## What is this project?
 
 NStart (pronounced "And Start!") is a small solution for landing pages (or press-kits) for the videogame industry.
