@@ -1,23 +1,36 @@
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+# syntax=docker/dockerfile:1
 
-FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
+# Application build stage
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
+COPY . /source
+WORKDIR /source/NStart
+
+ARG TARGETARCH
+
+RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
+    dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+
+# If you need to enable globalization and time zones:
+# https://github.com/dotnet/dotnet-docker/blob/main/samples/enable-globalization.md
+
+
+# Application run stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS final
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+COPY --from=build /app .
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
-WORKDIR /src
-COPY ["NStart/NStart.csproj", "NStart/"]
-RUN dotnet restore "NStart/NStart.csproj"
-COPY . .
-WORKDIR "/src/NStart"
-RUN dotnet build "NStart.csproj" -c Release -o /app/build
+# Globalization & timezones configuration
+ENV \
+    DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false \
+    LC_ALL=en_US.UTF-8 \
+    LANG=en_US.UTF-8
 
-FROM build AS publish
-RUN dotnet publish "NStart.csproj" -c Release -o /app/publish
+RUN apk add --no-cache \
+    icu-data-full \
+    icu-libs
 
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-#ENTRYPOINT ["dotnet", "NStart.dll"]
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet NStart.dll
+RUN apk add --no-cache tzdata
+
+USER $APP_UID
+
+ENTRYPOINT ["dotnet", "NStart.dll"]
